@@ -6,8 +6,8 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Effective date:** May 3, 2026
-**Last updated:** May 3, 2026
+**Effective date:** May 30, 2026
+**Last updated:** May 30, 2026
 
 This Privacy Policy explains how Clem ("**Clem**," "**we**," "**us**," or "**our**") collects, uses, shares, and protects information when you use the Clem mobile app (the "**Service**"). By using Clem, you agree to this Policy.
 
@@ -32,6 +32,7 @@ We intentionally collect as little data as possible. The information we collect 
 
 **Scan and cart data**
 - The text analysis results from your grocery scans (score, ingredients summary, highlights, nutrition details).
+- The photo you scan, stored as a shared product-catalog image keyed to the product (not to you). See Section 4.
 - Products you add to your cart or save.
 
 **Subscription status**
@@ -42,7 +43,7 @@ We intentionally collect as little data as possible. The information we collect 
 - We use PostHog (PostHog Inc., U.S.) to log product-analytics events such as screen views, feature interactions (e.g., scans completed, searches performed), and onboarding progress. Events are linked to your anonymous user identifier. We do not record session replays, heatmaps, or screenshots.
 
 **Camera and photo library access (only when you scan)**
-- When you tap to scan a grocery item, iOS will prompt you to allow Clem to use your **camera** and/or **photo library**. You choose whether to grant access. We only access the single photo you capture or select — we do not browse, scan, or retain any other photos from your library. You can revoke access anytime in **iOS Settings → Privacy → Photos / Camera → Clem**.
+- When you tap to scan a grocery item, iOS will prompt you to allow Clem to use your **camera** and/or **photo library**. You choose whether to grant access. We only access the single photo you capture or select — we do not browse or access any other photos from your library. That photo is stored as a product-catalog image (see Section 4). You can revoke access anytime in **iOS Settings → Privacy → Photos / Camera → Clem**.
 
 ### What we do *not* collect
 
@@ -74,7 +75,7 @@ When you capture or select a photo to scan:
 3. The Edge Function forwards it to the Google Gemini API for analysis.
 4. The text analysis is returned to your device and saved to your scan history.
 
-**Clem does not save your photo.** The image is never written to our database, to Supabase Storage, to server-side logs, or to any cache we control. Only the resulting text analysis (score, ingredients, highlights, etc.) is retained in your scan history.
+**We store your scan photo as a product-catalog image.** To build a shared catalog of grocery products that powers Search and Healthier Alternatives, the photo you scan is uploaded to Supabase Storage and saved against the **product** it depicts (for example, `products/<product-id>.jpg`) — **not against your account or identity** — and may be displayed as that product's image elsewhere in the app. Because these are photos of grocery packaging stored by product rather than by user, we treat them as deidentified catalog content that is not linked back to you. The resulting text analysis (score, ingredients, highlights, etc.) is also retained in your scan history. We never access or retain any other photos from your library — only the single image you capture or select for a scan.
 
 Google Gemini's retention and use of the image is governed by Google's terms — see Section 5 below.
 
@@ -103,7 +104,7 @@ If you sign in with Google, Google handles that authentication. See the [Google 
 ## 6. How long we keep your data
 
 - **Account record, dietary preferences, scan history, cart, saved products, and local subscription-status row:** retained while your account is active, and permanently deleted within **30 days** of account deletion. The 30-day window exists to cover routine encrypted backups; in practice, tapping **Delete Account** in Settings wipes your data from the live database immediately.
-- **Photos submitted for scanning:** not retained by Clem at any point (not saved to our database, to Supabase Storage, or to any server log). Google's retention of the image is governed by its Gemini API terms linked above.
+- **Photos submitted for scanning:** stored in Supabase Storage as a product-catalog image, saved against the product (not your account) and not linked to your identity. Because they are deidentified catalog content keyed to the product rather than to you, these images are retained as part of the shared product catalog and are not tied to — or removed with — your account. Google's retention of the image is governed by its Gemini API terms linked above.
 - **Subscription financial records:** held by Apple, not by us. When your Clem account is deleted, our copy of your subscription-status row is deleted, but any active Apple subscription continues until you cancel it in your Apple ID Settings (it simply stops being associated with a Clem account).
 
 ## 7. Your rights and choices
@@ -139,7 +140,7 @@ If you are in the EEA, the United Kingdom, or Switzerland, the General Data Prot
 
 If you are a California resident, the California Consumer Privacy Act, as amended by the CPRA, gives you specific rights.
 
-**Categories of personal information we collect.** Identifiers (email, user ID); customer-account information (name, subscription status); commercial information (products you've scanned, saved, or added to cart); internet/other electronic network activity (interaction with the Service); and user content (photos you submit for scanning, processed in real time and not retained by Clem).
+**Categories of personal information we collect.** Identifiers (email, user ID); customer-account information (name, subscription status); commercial information (products you've scanned, saved, or added to cart); internet/other electronic network activity (interaction with the Service); and user content (photos you submit for scanning, stored as deidentified product-catalog images keyed to the product rather than to you).
 
 **Categories of sources.** Directly from you; from Apple or Google at sign-in; and generated by your use of the Service.
 
