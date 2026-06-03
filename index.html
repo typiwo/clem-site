@@ -320,6 +320,144 @@
     .plan-sub{font-size:11px;color:rgba(250,248,236,.3);margin-top:12px;text-align:center;opacity:0;animation:fadeIn .4s ease-out forwards;animation-delay:3.1s;}
     @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 
+    /* ════════════════════════
+       WELCOME POPUP
+    ════════════════════════ */
+    .popup-overlay{
+      position:fixed;inset:0;
+      background:rgba(15,20,16,.6);
+      backdrop-filter:blur(4px);
+      -webkit-backdrop-filter:blur(4px);
+      z-index:9000;
+      display:flex;align-items:center;justify-content:center;
+      padding:24px;
+      opacity:0;pointer-events:none;
+      transition:opacity .3s ease;
+    }
+    .popup-overlay.visible{opacity:1;pointer-events:all;}
+    .popup-card{
+      background:var(--bone);
+      border:2px solid var(--ink);
+      border-radius:6px;
+      box-shadow:10px 12px 0 var(--ink);
+      max-width:480px;width:100%;
+      position:relative;
+      transform:translateY(14px);
+      transition:transform .32s cubic-bezier(.22,.68,0,1.2);
+      overflow:hidden;
+    }
+    .popup-overlay.visible .popup-card{transform:translateY(0);}
+    .popup-top-bar{
+      background:var(--ink);
+      padding:10px 20px;
+      display:flex;align-items:center;justify-content:space-between;
+    }
+    .popup-badge{
+      font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:2px;
+      color:var(--orange);
+      display:flex;align-items:center;gap:8px;
+    }
+    .popup-badge::before{
+      content:'';display:block;width:7px;height:7px;
+      background:var(--orange);border-radius:50%;
+      animation:pulseGlow 1.8s ease-in-out infinite;
+    }
+    @keyframes pulseGlow{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.75)}}
+    .popup-close{
+      background:none;border:none;color:rgba(250,248,236,.3);
+      font-size:18px;cursor:pointer;line-height:1;padding:2px 4px;
+      transition:color .2s;font-family:inherit;
+    }
+    .popup-close:hover{color:var(--bone);}
+    .popup-body{padding:36px 36px 28px;}
+    .popup-eyebrow{
+      display:block;font-size:10px;font-weight:800;text-transform:uppercase;
+      letter-spacing:2px;color:var(--orange);margin-bottom:12px;
+    }
+    .popup-title{
+      font-family:'Fraunces',serif;font-size:30px;font-weight:700;
+      letter-spacing:-1px;line-height:1.1;color:var(--ink);margin-bottom:12px;
+    }
+    .popup-title em{font-style:italic;color:var(--orange);}
+    .popup-text{font-size:14px;color:rgba(15,20,16,.6);line-height:1.75;margin-bottom:28px;}
+    .popup-form{display:flex;flex-direction:column;gap:10px;}
+    .popup-input{
+      width:100%;padding:14px 16px;
+      border:2px solid var(--ink);border-radius:4px;
+      background:var(--bone-warm);
+      font-family:'Inter',sans-serif;font-size:14px;color:var(--ink);
+      outline:none;
+      box-shadow:3px 4px 0 rgba(15,20,16,.1);
+      transition:border-color .2s,box-shadow .2s;
+    }
+    .popup-input:focus{border-color:var(--orange);box-shadow:3px 4px 0 rgba(232,97,42,.2);}
+    .popup-input::placeholder{color:rgba(15,20,16,.35);}
+    .popup-submit{
+      width:100%;padding:15px;cursor:pointer;
+      background:var(--orange);color:var(--bone);
+      border:2px solid var(--orange);border-radius:4px;
+      font-family:'Inter',sans-serif;font-size:11px;font-weight:800;
+      letter-spacing:2px;text-transform:uppercase;
+      box-shadow:4px 5px 0 var(--ink);
+      transition:all .18s;
+    }
+    .popup-submit:hover{transform:translateY(-2px);box-shadow:5px 7px 0 var(--ink);}
+    .popup-submit:active{transform:translateY(0);box-shadow:2px 3px 0 var(--ink);}
+    .popup-dismiss{
+      display:block;width:100%;text-align:center;margin-top:14px;
+      font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;
+      color:rgba(15,20,16,.3);cursor:pointer;
+      background:none;border:none;font-family:inherit;
+      transition:color .2s;
+    }
+    .popup-dismiss:hover{color:rgba(15,20,16,.6);}
+    /* Success */
+    .popup-success{display:none;text-align:center;padding:40px 36px 32px;}
+    .popup-success.visible{display:block;animation:pgIn .3s ease-out;}
+    .popup-success-icon{
+      width:52px;height:52px;border-radius:50%;
+      background:var(--orange);border:2px solid var(--ink);
+      box-shadow:3px 4px 0 var(--ink);
+      display:flex;align-items:center;justify-content:center;
+      margin:0 auto 20px;
+      font-size:22px;font-weight:900;color:var(--bone);
+    }
+    .popup-success-title{
+      font-family:'Fraunces',serif;font-size:28px;font-weight:700;
+      letter-spacing:-.8px;color:var(--ink);margin-bottom:10px;
+    }
+    .popup-success-text{font-size:13px;color:rgba(15,20,16,.55);line-height:1.75;margin-bottom:24px;}
+    .popup-discord{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      width:100%;padding:15px;text-decoration:none;
+      background:#5865F2;color:#fff;
+      border:2px solid var(--ink);border-radius:4px;
+      font-family:'Inter',sans-serif;font-size:11px;font-weight:800;
+      letter-spacing:2px;text-transform:uppercase;
+      box-shadow:4px 5px 0 var(--ink);
+      transition:all .18s;
+    }
+    .popup-discord:hover{transform:translateY(-2px);box-shadow:5px 7px 0 var(--ink);color:#fff;}
+    .popup-discord svg{width:18px;height:18px;fill:#fff;flex-shrink:0;}
+    @media(max-width:520px){
+      .popup-body,.popup-success{padding:28px 22px 22px;}
+      .popup-title{font-size:26px;}
+    }
+
+    /* BOTTOM EMAIL FORM */
+    .bottom-form{display:flex;gap:10px;max-width:420px;margin:0 auto 28px;flex-wrap:wrap;}
+    .bottom-email-input{
+      flex:1;min-width:180px;padding:14px 16px;
+      border:2px solid rgba(250,248,236,.2);border-radius:4px;
+      background:rgba(250,248,236,.08);
+      font-family:'Inter',sans-serif;font-size:14px;color:var(--bone);
+      outline:none;transition:border-color .2s;
+    }
+    .bottom-email-input:focus{border-color:var(--orange);}
+    .bottom-email-input::placeholder{color:rgba(250,248,236,.3);}
+    .bottom-success{display:none;margin-bottom:28px;}
+    .bottom-success.visible{display:block;animation:pgIn .3s ease-out;}
+
     /* RESPONSIVE */
     @media(max-width:860px){
       .hero-inner{grid-template-columns:1fr;padding:0;}
@@ -503,9 +641,19 @@
           <h2 class="interview-h2">Help us build Clem right.<br>15 minutes. No prep.</h2>
           <p class="interview-p">We're talking to people who care about eating well but hate feeling judged by their food app. Your call shapes what we build next.</p>
         </div>
-        <div class="interview-aside">
-          <a href="https://calendar.app.google/k8iTqz5bfWSDmaBL8" target="_blank" rel="noopener" class="btn-ghost">Book a call</a>
-          <span class="interview-detail">15 min · No prep needed</span>
+        <div class="interview-aside" style="display:flex;flex-direction:column;align-items:center;gap:14px;">
+          <div style="text-align:center;">
+            <a href="https://calendar.app.google/k8iTqz5bfWSDmaBL8" target="_blank" rel="noopener" class="btn-ghost" style="display:flex;">Book a call</a>
+            <span class="interview-detail">15 min · No prep needed</span>
+          </div>
+          <span style="font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:2px;color:rgba(15,20,16,.25);">or</span>
+          <div style="text-align:center;">
+            <a href="https://discord.gg/sABYqWndr6" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:15px 32px;background:#5865F2;color:#fff;border:2px solid var(--ink);border-radius:4px;font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;text-decoration:none;box-shadow:4px 5px 0 var(--ink);white-space:nowrap;transition:all .18s;" onmouseover="this.style.transform='translateY(-2px)';this.style.boxShadow='5px 7px 0 var(--ink)'" onmouseout="this.style.transform='';this.style.boxShadow='4px 5px 0 var(--ink)'">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057.1 18.08.115 18.1.134 18.11a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+              Join Discord
+            </a>
+            <span class="interview-detail">Chat with the community</span>
+          </div>
         </div>
       </div>
     </div>
@@ -516,10 +664,32 @@
     <div class="wrap">
       <div class="rule-center"></div>
       <h2 class="final-h2">Stop feeling judged.<br>Start feeling <em>good.</em></h2>
-      <p class="final-p">100 spots for the first people in. Free to join. No credit card.</p>
+      <p class="final-p">Get updates before we launch. Free. No credit card.</p>
+
+      <!-- Email form -->
+      <div id="bottom-form-wrap">
+        <form class="bottom-form" id="bottom-form" onsubmit="handleBottomSubmit(event)">
+          <input class="bottom-email-input" type="email" id="bottom-email" name="email" placeholder="your@email.com" required autocomplete="email">
+          <button type="submit" class="btn-primary">Get early access</button>
+        </form>
+      </div>
+
+      <!-- Success state -->
+      <div class="bottom-success" id="bottom-success">
+        <p style="font-size:14px;color:rgba(250,248,236,.55);margin-bottom:20px;">You're in. Check your inbox for updates.</p>
+        <a href="https://discord.gg/sABYqWndr6" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 28px;background:#5865F2;color:#fff;border:2px solid #fff;border-radius:4px;font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;text-decoration:none;box-shadow:4px 5px 0 rgba(250,248,236,.3);margin-bottom:32px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057.1 18.08.115 18.1.134 18.11a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+          Join our Discord
+        </a>
+      </div>
+
       <div class="final-ctas">
         <a href="https://testflight.apple.com/join/JSux95cu" target="_blank" rel="noopener" class="btn-primary">Download on TestFlight</a>
         <a href="https://calendar.app.google/k8iTqz5bfWSDmaBL8" target="_blank" rel="noopener" class="btn-ghost-inv">Talk to us first</a>
+        <a href="https://discord.gg/sABYqWndr6" target="_blank" rel="noopener" class="btn-ghost-inv" style="display:inline-flex;align-items:center;gap:8px;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057.1 18.08.115 18.1.134 18.11a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+          Join Discord
+        </a>
       </div>
       <p class="final-note">Private beta · 100 spots only</p>
     </div>
@@ -724,6 +894,51 @@
 
 </div><!-- /ob-shell -->
 
+<!-- ══════════════════════════════════════
+     WELCOME POPUP
+══════════════════════════════════════ -->
+<div class="popup-overlay" id="welcome-popup" role="dialog" aria-modal="true" aria-labelledby="popup-heading">
+
+  <div class="popup-card">
+    <div class="popup-top-bar">
+      <span class="popup-badge">Founding Member Access</span>
+      <button class="popup-close" onclick="closeWelcomePopup()" aria-label="Close">&times;</button>
+    </div>
+
+    <!-- FORM STATE -->
+    <div class="popup-body" id="popup-form-wrap">
+      <span class="popup-eyebrow">Founding Member</span>
+      <h2 class="popup-title" id="popup-heading">Hey, glad<br>you're here.</h2>
+      <p class="popup-text">Get updates first and help us build a better food app.</p>
+      <form class="popup-form" id="popup-form" onsubmit="handlePopupSubmit(event)">
+        <input
+          class="popup-input"
+          type="email"
+          id="popup-email"
+          name="email"
+          placeholder="your@email.com"
+          required
+          autocomplete="email"
+        >
+        <button class="popup-submit" type="submit">Get early access &rarr;</button>
+      </form>
+      <button class="popup-dismiss" onclick="closeWelcomePopup()">No thanks</button>
+    </div>
+
+    <!-- SUCCESS STATE -->
+    <div class="popup-success" id="popup-success-wrap">
+      <div class="popup-success-icon">&#10003;</div>
+      <h2 class="popup-success-title">You're in!</h2>
+      <p class="popup-success-text">Check your inbox for updates. Come hang out with us on Discord too.</p>
+      <a href="https://discord.gg/sABYqWndr6" target="_blank" rel="noopener" class="popup-discord">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057.1 18.08.115 18.1.134 18.11a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+        Join the Discord community
+      </a>
+    </div>
+  </div>
+
+</div>
+
 <script>
   /* ── PERSONA ROTATION ── */
   const personas = [
@@ -808,6 +1023,60 @@
     items.push('Your personal score is ready');
     for(let i=0;i<5;i++){const el=document.getElementById(`chk${i+1}`);if(el&&items[i])el.textContent=items[i];}
   }
+
+  /* ── WELCOME POPUP ── */
+  (function(){
+    const POPUP_KEY='clem_welcome_v2';
+    const overlay=document.getElementById('welcome-popup');
+
+    function show(){
+      if(localStorage.getItem(POPUP_KEY)) return;
+      setTimeout(function(){ overlay.classList.add('visible'); }, 1600);
+    }
+
+    window.closeWelcomePopup=function(){
+      overlay.classList.remove('visible');
+      localStorage.setItem(POPUP_KEY,'1');
+    };
+
+    overlay.addEventListener('click',function(e){
+      if(e.target===overlay) window.closeWelcomePopup();
+    });
+
+    document.addEventListener('keydown',function(e){
+      if(e.key==='Escape'&&overlay.classList.contains('visible')) window.closeWelcomePopup();
+    });
+
+    window.handlePopupSubmit=function(e){
+      e.preventDefault();
+      const email=document.getElementById('popup-email').value.trim();
+      if(!email) return;
+      /* TODO: POST to your email service (Loops, Mailchimp, ConvertKit, etc.)
+         fetch('https://app.loops.so/api/newsletter-form/YOUR_ID', {
+           method:'POST', headers:{'Content-Type':'application/json'},
+           body: JSON.stringify({email})
+         }); */
+      localStorage.setItem(POPUP_KEY,'1');
+      document.getElementById('popup-form-wrap').style.display='none';
+      document.getElementById('popup-success-wrap').classList.add('visible');
+    };
+
+    if(document.readyState==='loading'){
+      document.addEventListener('DOMContentLoaded',show);
+    } else {
+      show();
+    }
+  })();
+
+  /* ── BOTTOM EMAIL FORM ── */
+  window.handleBottomSubmit=function(e){
+    e.preventDefault();
+    const email=document.getElementById('bottom-email').value.trim();
+    if(!email) return;
+    /* TODO: POST to your email service */
+    document.getElementById('bottom-form-wrap').style.display='none';
+    document.getElementById('bottom-success').classList.add('visible');
+  };
 </script>
 </body>
 </html>
