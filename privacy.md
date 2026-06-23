@@ -6,8 +6,8 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Effective date:** May 30, 2026
-**Last updated:** May 30, 2026
+**Effective date:** June 21, 2026
+**Last updated:** June 21, 2026
 
 This Privacy Policy explains how Clem ("**Clem**," "**we**," "**us**," or "**our**") collects, uses, shares, and protects information when you use the Clem mobile app (the "**Service**"). By using Clem, you agree to this Policy.
 
@@ -45,6 +45,15 @@ We intentionally collect as little data as possible. The information we collect 
 **Camera and photo library access (only when you scan)**
 - When you tap to scan a grocery item, iOS will prompt you to allow Clem to use your **camera** and/or **photo library**. You choose whether to grant access. We only access the single photo you capture or select — we do not browse or access any other photos from your library. That photo is stored as a product-catalog image (see Section 4). You can revoke access anytime in **iOS Settings → Privacy → Photos / Camera → Clem**.
 
+**Profile and social information (only if you use the social features)**
+- Clem includes optional social features. If you set up a profile, we collect the profile details you choose to provide: a username, display name, short bio, and avatar.
+- If you follow people, we record your follow relationships — who you follow, who follows you, and any pending follow requests.
+- We store the likes and comments you post on scans, and which of your scans you choose to share to your feed and profile.
+- If you block someone or report content, we store that block or report (including the reason you select) to operate our safety features and review reports.
+
+**Push notification token (only if you enable notifications)**
+- If you allow notifications, we store a device-specific push token issued through Expo and Apple so we can deliver notifications to your device. This token is used solely to route notifications to your device. It is **not** an advertising identifier and is **not** used to track you across apps or websites.
+
 ### What we do *not* collect
 
 We do not collect or store:
@@ -61,11 +70,23 @@ We use your information solely to:
 - Provide the scanning, scoring, search, and cart features.
 - Personalize your dietary alerts based on the preferences you set.
 - Validate your Clem Pro subscription.
+- Operate the optional social features you choose to use (profiles, following, the activity feed, likes, and comments).
+- Deliver in-app and push notifications about activity relevant to you, such as new followers, follow requests, likes, and comments.
 - Understand how the app is used so we can improve it (via PostHog product analytics — aggregated, not individual).
 - Respond to support requests sent to privacy@clemapp.com.
 - Comply with legal obligations.
 
 We do not sell your personal information. We do not use your personal information for advertising or for profiling outside the scope of the Service.
+
+### Information shared with other users (social features)
+
+Clem's social features are optional. When you use them, some information becomes visible to other people:
+
+- **Your profile** — your display name, username, avatar, bio, and your follower and following counts.
+- **Scans you choose to share** — these appear in your followers' activity feed and on your profile, showing the product name, brand, score, image, and time. We never expose your full underlying analysis beyond this summary, and scans you hide are never shown to anyone else.
+- **Likes and comments** you post are visible to other users who can see that scan.
+
+You control this. Your profile can be **public** (visible to anyone using Clem) or **private** (visible only to followers you approve). You can switch your profile to private, hide individual scans, and delete your comments at any time in the app. This sharing happens between you and other Clem users **at your direction** — it is not a sale of your personal information and is not sharing for advertising.
 
 ## 4. How your photo is handled when you scan
 
@@ -101,9 +122,13 @@ Apple handles authentication when you sign in with Apple and handles all payment
 **Google** (Sign in with Google, if you choose it)
 If you sign in with Google, Google handles that authentication. See the [Google Privacy Policy](https://policies.google.com/privacy).
 
+**Expo** (push notification delivery)
+If you enable notifications, we use Expo's push service (operated by 650 Industries, Inc., U.S.) to deliver notifications to your device through Apple's Push Notification service (APNs). Expo receives your device push token and the notification content solely to route the message to your device. See the [Expo Privacy Policy](https://expo.dev/privacy-explained).
+
 ## 6. How long we keep your data
 
 - **Account record, dietary preferences, scan history, cart, saved products, and local subscription-status row:** retained while your account is active, and permanently deleted within **30 days** of account deletion. The 30-day window exists to cover routine encrypted backups; in practice, tapping **Delete Account** in Settings wipes your data from the live database immediately.
+- **Profile, follow relationships, likes, comments, and push tokens:** retained while your account is active and deleted within **30 days** of account deletion. Comments you post remain visible to other users until you delete them or delete your account.
 - **Photos submitted for scanning:** stored in Supabase Storage as a product-catalog image, saved against the product (not your account) and not linked to your identity. Because they are deidentified catalog content keyed to the product rather than to you, these images are retained as part of the shared product catalog and are not tied to — or removed with — your account. Google's retention of the image is governed by its Gemini API terms linked above.
 - **Subscription financial records:** held by Apple, not by us. When your Clem account is deleted, our copy of your subscription-status row is deleted, but any active Apple subscription continues until you cancel it in your Apple ID Settings (it simply stops being associated with a Clem account).
 
@@ -140,13 +165,13 @@ If you are in the EEA, the United Kingdom, or Switzerland, the General Data Prot
 
 If you are a California resident, the California Consumer Privacy Act, as amended by the CPRA, gives you specific rights.
 
-**Categories of personal information we collect.** Identifiers (email, user ID); customer-account information (name, subscription status); commercial information (products you've scanned, saved, or added to cart); internet/other electronic network activity (interaction with the Service); and user content (photos you submit for scanning, stored as deidentified product-catalog images keyed to the product rather than to you).
+**Categories of personal information we collect.** Identifiers (email, user ID, username, and — if you enable notifications — a device push token); customer-account information (name, profile details, subscription status); commercial information (products you've scanned, saved, or added to cart); internet/other electronic network activity (your interactions with the Service, including follows, likes, and comments); and user content (comments you post, profile information you provide, and photos you submit for scanning, stored as deidentified product-catalog images keyed to the product rather than to you).
 
 **Categories of sources.** Directly from you; from Apple or Google at sign-in; and generated by your use of the Service.
 
 **Purposes.** Only to provide and secure the Service, as described in Section 3.
 
-**Third parties we share with.** Service providers only, as listed in Section 5. **We do not sell your personal information, and we do not share it for cross-context behavioral advertising.** We have not done so in the past 12 months.
+**Third parties we share with.** Service providers only, as listed in Section 5. Separately, when you use the social features, information you choose to share — your profile, the scans you share, and your likes and comments — is visible to other users of the Service at your direction. **We do not sell your personal information, and we do not share it for cross-context behavioral advertising.** We have not done so in the past 12 months.
 
 **Your rights under the CCPA/CPRA.** You have the right to know what we collect, to delete your personal information, to correct inaccurate information, to opt out of sale or sharing (not applicable — we do neither), to limit the use of sensitive personal information (we do not collect sensitive personal information), and not to be discriminated against for exercising these rights.
 
@@ -178,7 +203,7 @@ We protect your data with industry-standard measures:
 - TLS 1.2+ for all network traffic between your device, our Edge Functions, and third-party APIs.
 - Encryption at rest for all data stored in Supabase / AWS.
 - JSON Web Token (JWT) authentication on every request.
-- Row-Level Security policies that ensure each user's data is only readable and writable by that user.
+- Row-Level Security policies so that your data is private by default — writable only by you, and readable by other users only to the extent you choose to share it through the social features (for example, a scan you share, a comment you post, or a public profile).
 - A single server-side Gemini API key that is never exposed to the client.
 
 No system is perfectly secure. If we discover a breach affecting your personal information, we will notify you as required by applicable law.
