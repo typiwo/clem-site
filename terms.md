@@ -6,12 +6,12 @@ permalink: /terms/
 
 # Terms of Service
 
-**Effective date:** June 21, 2026
-**Last updated:** June 21, 2026
+**Effective date:** June 25, 2026
+**Last updated:** June 25, 2026
 
 These Terms of Service (the "**Terms**") govern your use of the Clem mobile application and related services (together, the "**Service**"), operated by **Tyler Piwowarski**, an individual sole proprietor based in California ("**Clem**," "**we**," "**us**," or "**our**").
 
-**Please read these Terms carefully.** They include a binding arbitration provision and class-action waiver in Section 13 that affect how disputes between you and Clem are resolved.
+**Please read these Terms carefully.** They include a binding arbitration provision and class-action waiver in Section 14 that affect how disputes between you and Clem are resolved.
 
 ## 1. Acceptance of these Terms
 
@@ -44,7 +44,7 @@ You use the Service at your own risk. You acknowledge that the analysis may be i
 
 You need an account to use most of the Service. You can sign in with Apple or Google. You are responsible for maintaining the confidentiality of your sign-in credentials and for any activity under your account.
 
-You can delete your account at any time from inside the app at **Settings → Delete Account**. Deletion is permanent and removes your scan history, cart, saved products, dietary preferences, profile, follows, likes, comments, and account record within 30 days. Apple subscriptions continue independently and must be canceled separately in your Apple ID Account Settings.
+You can delete your account at any time from inside the app at **Settings → Delete Account**. Deletion is permanent and removes your scan history, cart, saved products, dietary preferences, profile, posts you've shared, follows, likes, comments, and account record within 30 days. Apple subscriptions continue independently and must be canceled separately in your Apple ID Account Settings.
 
 ## 6. Clem Pro subscriptions
 
@@ -84,23 +84,35 @@ When using Clem, you agree not to:
 
 We may suspend or terminate your access if we reasonably believe you have violated these rules.
 
-## 8. Intellectual property
+## 8. User-generated content and community
+
+Clem's social features let you post content — including the **photos** from your scans and the **captions** you write — and interact with other people. The following rules apply to that content and to your conduct.
+
+**Ownership and your license to us.** You retain ownership of the photos and captions you post. By posting them, you grant Clem a worldwide, non-exclusive, royalty-free license to host, store, and display that content within the Service in order to provide the social features — for example, showing a scan you post to your followers, or to anyone who can view your profile if it is public. This license is limited to operating the Service, ends when you delete the content or your account (except for copies retained in routine backups for up to 30 days), and does not permit us to sell your content or use it for advertising. You are responsible for the content you post, and you represent that you have the right to post it and that it does not violate these Terms or the rights of others.
+
+**Zero tolerance for objectionable content.** There is **no tolerance** for objectionable content or abusive behavior. You may not post content that is hateful, sexually explicit, harassing, abusive, threatening, defamatory, or otherwise illegal, and you may not bully, stalk, impersonate, or otherwise abuse other users. These rules apply to photos, captions, profiles, comments, usernames, and every other part of the social features.
+
+**Reporting and blocking.** You can **report** any content or person, and **block** any user, from inside the app (or by emailing us at privacy@clemapp.com). Blocking a user prevents them from interacting with you or viewing your profile. We review reports and act on violations — typically within **24 hours** — by removing the content and/or suspending or terminating the responsible account.
+
+**Enforcement.** We may remove any content and suspend or terminate any account that violates these Terms, at our discretion and with or without notice. Content posted by other users belongs to them, not to us; we do not endorse it, and you interact with other users at your own risk.
+
+## 9. Intellectual property
 
 **Clem's content.** The Clem name, logo, app, user interface, text, AI analyses, product database, and other content we provide are owned by the operator or licensed to it, and are protected by copyright, trademark, and other laws. We grant you a limited, non-exclusive, non-transferable, revocable license to use the Service for your personal, non-commercial use, consistent with these Terms.
 
-**Your content.** You retain all rights in the photos you submit to Clem for scanning. By submitting a photo, you grant us a limited, worldwide, royalty-free license to process that photo solely for the purpose of generating your requested analysis (including transmitting it to Google Gemini for AI analysis as described in our [Privacy Policy](/privacy/)). This license ends as soon as the analysis is complete — we do not retain the photo.
+**Your content.** You retain all rights in the photos you submit to Clem for scanning. By submitting a photo, you grant us a limited, worldwide, royalty-free license to process that photo solely for the purpose of generating your requested analysis (including transmitting it to Google Gemini for AI analysis as described in our [Privacy Policy](/privacy/)). This license ends as soon as the analysis is complete. We do not retain a photo you scan only for analysis; however, if you choose to **post** a scan to your social feed, the photo and your caption are stored and displayed as user content under the license in Section 8.
 
 **Content you post in social features.** You retain ownership of the profile information, comments, and other content you post through the social features. By posting it, you grant us a worldwide, non-exclusive, royalty-free license to host, store, display, and distribute that content within the Service so the social features can function — for example, showing your comment to others who can view a scan, or showing your profile to people who visit it. This license ends when you delete the content or your account, except for copies retained in routine backups for up to 30 days. You are solely responsible for the content you post, and you represent that you have the right to post it and that it does not violate Section 7 or the rights of others.
 
 **Feedback.** If you send us suggestions or feedback, we may use them without obligation to you.
 
-## 9. Termination
+## 10. Termination
 
 You may stop using Clem at any time and can delete your account from **Settings → Delete Account**.
 
-We may suspend or terminate your access, with or without notice, if we reasonably believe you have violated these Terms, if required by law, or if we discontinue the Service. Sections that by their nature should survive termination (including Sections 4, 7, 8, 10, 11, 12, 13, and 14) will survive.
+We may suspend or terminate your access, with or without notice, if we reasonably believe you have violated these Terms, if required by law, or if we discontinue the Service. Sections that by their nature should survive termination (including Sections 4, 7, 8, 9, 11, 12, 13, 14, and 15) will survive.
 
-## 10. Disclaimers
+## 11. Disclaimers
 
 **THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITH ALL FAULTS, AND WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE DISCLAIM ALL WARRANTIES, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, AND QUIET ENJOYMENT.**
 
@@ -108,7 +120,7 @@ We do not warrant that the Service will be uninterrupted, secure, error-free, fr
 
 Some jurisdictions do not allow the exclusion of certain warranties, so some of the above exclusions may not apply to you. In that case, such warranties are limited to the minimum scope and duration permitted by applicable law.
 
-## 11. Limitation of liability
+## 12. Limitation of liability
 
 **TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:**
 
@@ -119,47 +131,47 @@ Some jurisdictions do not allow the exclusion of certain warranties, so some of 
 
 This limitation is an essential element of the bargain between you and Clem. If you are dissatisfied with the Service, your exclusive remedy is to stop using it and (if applicable) to cancel your subscription.
 
-## 12. Indemnification
+## 13. Indemnification
 
 You agree to defend, indemnify, and hold harmless Clem and its operator from and against any claims, damages, obligations, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from: (a) your use of the Service in violation of these Terms; (b) your violation of any law or the rights of a third party; or (c) any content you submit to the Service.
 
-## 13. Dispute resolution — arbitration agreement, class-action waiver
+## 14. Dispute resolution — arbitration agreement, class-action waiver
 
 **PLEASE READ CAREFULLY.** This section affects your legal rights. It requires that most disputes between you and Clem be resolved through binding individual arbitration instead of in court, and it waives your right to participate in a class action.
 
-### 13.1 Informal resolution first
+### 14.1 Informal resolution first
 
 Before filing any formal proceeding, you agree to contact us at **privacy@clemapp.com** with a written description of the dispute and the relief you are seeking. You and Clem will attempt in good faith to resolve the dispute informally for at least 30 days before initiating arbitration.
 
-### 13.2 Binding arbitration
+### 14.2 Binding arbitration
 
 If informal resolution does not succeed, any dispute, claim, or controversy arising out of or relating to these Terms or the Service will be resolved by binding individual arbitration administered by the **American Arbitration Association (AAA)** under its **Consumer Arbitration Rules**. The arbitration will take place in California, or (if you request) via telephone or videoconference. The arbitrator — not a court — will decide any issue concerning the scope, enforceability, or formation of this arbitration agreement.
 
-### 13.3 Small-claims exception
+### 14.3 Small-claims exception
 
 Either party may bring an individual claim in a small-claims court of competent jurisdiction instead of arbitration, if the claim qualifies.
 
-### 13.4 Class-action waiver
+### 14.4 Class-action waiver
 
 **You and Clem each agree to bring claims only in your or its individual capacity, and not as a plaintiff or class member in any purported class, collective, consolidated, or representative action.** No arbitrator or court may consolidate more than one person's claims or preside over any form of representative proceeding.
 
-### 13.5 30-day opt-out
+### 14.5 30-day opt-out
 
 You may opt out of this arbitration agreement and class-action waiver by emailing **privacy@clemapp.com** within **30 days** of the date you first accepted these Terms, with the subject line "Arbitration Opt-Out" and your name, the email address associated with your Clem account, and a clear statement that you wish to opt out. Opting out does not affect any other part of these Terms.
 
-### 13.6 Fees
+### 14.6 Fees
 
 For consumer arbitrations, AAA's fee rules apply. If you are a consumer asserting a claim of $10,000 or less and AAA's Consumer Arbitration Rules assign fees to you, Clem will pay those fees unless the arbitrator determines your claim was frivolous.
 
-## 14. Governing law
+## 15. Governing law
 
-These Terms and any dispute arising out of or relating to them or the Service are governed by the laws of the **State of California**, without regard to its conflict-of-laws principles. Subject to Section 13, the exclusive venue for any claim that may be heard in court is the state or federal courts located in the Northern District of California, and you consent to the jurisdiction of those courts.
+These Terms and any dispute arising out of or relating to them or the Service are governed by the laws of the **State of California**, without regard to its conflict-of-laws principles. Subject to Section 14, the exclusive venue for any claim that may be heard in court is the state or federal courts located in the Northern District of California, and you consent to the jurisdiction of those courts.
 
-## 15. Changes to these Terms
+## 16. Changes to these Terms
 
 We may update these Terms from time to time. If we make a material change, we will update the Effective Date at the top of this page and notify you in the app or by email. Your continued use of the Service after an update constitutes acceptance of the updated Terms. If you do not agree to an update, you must stop using the Service and may delete your account.
 
-## 16. Miscellaneous
+## 17. Miscellaneous
 
 **Entire agreement.** These Terms and the [Privacy Policy](/privacy/) constitute the entire agreement between you and Clem regarding the Service.
 
