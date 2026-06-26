@@ -80,7 +80,7 @@ When using Clem, you agree not to:
 - Resell, redistribute, or commercially exploit the analyses, scores, or product data produced by the Service.
 - Circumvent, disable, or interfere with security features of the Service, or attempt to gain unauthorized access to any part of it.
 
-**Objectionable content and other users.** There is **no tolerance** for objectionable content or abusive users. You can report a comment or another user, and block another user, from inside the app, or email us at privacy@clemapp.com. We review reports and will act on objectionable content — typically by removing the content and/or suspending the responsible account — within 24 hours. We may remove any content and suspend or terminate any account at our discretion. Content posted by other users belongs to them, not to us; we do not endorse it, and you interact with other users at your own risk.
+**Objectionable content and other users.** There is **no tolerance** for objectionable content or abusive users. You can report a comment, a post (including its photo and caption), a profile picture (avatar), or another user, and block another user, from inside the app, or email us at privacy@clemapp.com. We review reports and will act on objectionable content — typically by removing the content and/or suspending the responsible account — within 24 hours. We may remove any content and suspend or terminate any account at our discretion. Content posted by other users belongs to them, not to us; we do not endorse it, and you interact with other users at your own risk.
 
 We may suspend or terminate your access if we reasonably believe you have violated these rules.
 
