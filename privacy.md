@@ -6,8 +6,8 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Effective date:** June 25, 2026
-**Last updated:** June 25, 2026
+**Effective date:** June 26, 2026
+**Last updated:** June 26, 2026
 
 This Privacy Policy explains how Clem ("**Clem**," "**we**," "**us**," or "**our**") collects, uses, shares, and protects information when you use the Clem mobile app (the "**Service**"). By using Clem, you agree to this Policy.
 
@@ -40,7 +40,7 @@ We intentionally collect as little data as possible. The information we collect 
 - We use RevenueCat (RevenueCat Inc., U.S.) to manage your subscription purchases and link them to your account. RevenueCat receives your anonymous user identifier and purchase receipts from Apple.
 
 **Product analytics**
-- We use PostHog (PostHog Inc., U.S.) to log product-analytics events such as screen views, feature interactions (e.g., scans completed, searches performed), and onboarding progress. Events are linked to your anonymous user identifier. We do not record session replays, heatmaps, or screenshots.
+- We use PostHog (PostHog Inc., U.S.) to log product-analytics events such as screen views, feature interactions (e.g., scans completed, searches performed), and onboarding progress, and to record session replays — playback of your in-app screens and interactions — so we can find and fix usability problems. Session replays have all text you type masked (for example, your email at sign-in is never captured); other on-screen content, including product images, is recorded so we can see what you experienced. Events and replays are linked to your anonymous user identifier. We do not use heatmaps.
 
 **Camera and photo library access (when you scan or set a profile picture)**
 - When you tap to scan a grocery item, or choose a profile picture, iOS will prompt you to allow Clem to use your **camera** and/or **photo library**. You choose whether to grant access. We only access the single photo you capture or select — we do not browse or access any other photos from your library. A photo you scan is stored as a product-catalog image, and — if you post the scan to your feed — also as your personal post image; a photo you choose as a profile picture is stored as your avatar (see Section 4). You can revoke access anytime in **iOS Settings → Privacy → Photos / Camera → Clem**.
@@ -63,7 +63,7 @@ We do not collect or store:
 - Your precise or approximate location.
 - Your contacts, calendar, health data (HealthKit), or other photos from your library.
 - Your advertising identifier (IDFA), device fingerprint, or persistent tracking identifiers.
-- Session recordings, screenshots, or heatmaps.
+- Heatmaps.
 
 We do **not** use any advertising, attribution, or behavioral-tracking SDKs.
 
@@ -75,7 +75,7 @@ We use your information solely to:
 - Validate your Clem Pro subscription.
 - Operate the optional social features you choose to use (profiles, following, the activity feed, posts you share, likes, and comments).
 - Deliver in-app and push notifications about activity relevant to you, such as new followers, follow requests, likes, and comments.
-- Understand how the app is used so we can improve it (via PostHog product analytics — aggregated, not individual).
+- Understand how the app is used so we can improve it (via PostHog product analytics and masked session replays of your app usage).
 - Respond to support requests sent to privacy@clemapp.com.
 - Comply with legal obligations.
 
@@ -140,7 +140,7 @@ When you scan or search for a product, the image and/or text is sent to Google's
 RevenueCat manages subscription purchases, receipt validation, and entitlement status on our behalf. It receives your anonymous user identifier and Apple purchase receipts. RevenueCat is SOC 2 Type II certified and is based in the United States. See the [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy/).
 
 **PostHog** (product analytics)
-PostHog logs product-analytics events (e.g., scans completed, paywall views, onboarding steps) linked to your anonymous user identifier. We do not enable session replay, heatmaps, or autocapture. PostHog is SOC 2 Type II certified and is based in the United States. See the [PostHog Privacy Policy](https://posthog.com/privacy).
+PostHog logs product-analytics events (e.g., scans completed, paywall views, onboarding steps) and records masked session replays (see "Product analytics" in Section 2), linked to your anonymous user identifier. We do not enable heatmaps or autocapture. PostHog is SOC 2 Type II certified and is based in the United States. See the [PostHog Privacy Policy](https://posthog.com/privacy).
 
 **Apple** (Sign in with Apple, StoreKit for subscriptions)
 Apple handles authentication when you sign in with Apple and handles all payment processing for Clem Pro. Apple's handling of that data is governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
@@ -193,7 +193,7 @@ If you are in the EEA, the United Kingdom, or Switzerland, the General Data Prot
 
 If you are a California resident, the California Consumer Privacy Act, as amended by the CPRA, gives you specific rights.
 
-**Categories of personal information we collect.** Identifiers (email, user ID, username, and — if you enable notifications — a device push token); customer-account information (name, profile details, subscription status); commercial information (products you've scanned, saved, or added to cart); internet/other electronic network activity (your interactions with the Service, including follows, likes, and comments); and user content (comments you post, captions and photos you post to your social feed, profile information you provide, and photos you submit for scanning, stored as deidentified product-catalog images keyed to the product rather than to you).
+**Categories of personal information we collect.** Identifiers (email, user ID, username, and — if you enable notifications — a device push token); customer-account information (name, profile details, subscription status); commercial information (products you've scanned, saved, or added to cart); internet/other electronic network activity (your interactions with the Service, including follows, likes, and comments, and masked session replays of your app usage); and user content (comments you post, captions and photos you post to your social feed, profile information you provide, and photos you submit for scanning, stored as deidentified product-catalog images keyed to the product rather than to you).
 
 **Categories of sources.** Directly from you; from Apple or Google at sign-in; and generated by your use of the Service.
 
