@@ -7,7 +7,7 @@ permalink: /terms/
 # Terms of Service
 
 **Effective date:** June 25, 2026
-**Last updated:** June 25, 2026
+**Last updated:** July 3, 2026
 
 These Terms of Service (the "**Terms**") govern your use of the Clem mobile application and related services (together, the "**Service**"), operated by **Tyler Piwowarski**, an individual sole proprietor based in California ("**Clem**," "**we**," "**us**," or "**our**").
 
@@ -48,23 +48,23 @@ You can delete your account at any time from inside the app at **Settings → De
 
 ## 6. Clem Pro subscriptions
 
-Clem offers optional auto-renewing subscriptions ("**Clem Pro**") that unlock additional features such as product comparison.
+Clem offers optional auto-renewing subscriptions ("**Clem Pro**") that unlock additional features: unlimited scanning, every healthier-swap suggestion, and unlimited product search.
 
 **Plans and prices:**
-- **Clem Pro Monthly** — $2.99 USD / month, auto-renewing monthly
+- **Clem Pro Monthly** — $4.99 USD / month, auto-renewing monthly
 - **Clem Pro Annual** — $29.99 USD / year, auto-renewing annually
 
-Prices shown in the app may vary based on your country or Apple's local pricing tiers.
+Prices shown in the app may vary based on your country or Apple's local pricing tiers. We may also offer promotional pricing from time to time (for example, a discounted annual plan); the price displayed at purchase is the price you will be charged.
 
 **Apple-mandated subscription terms.** By purchasing Clem Pro:
 
 > Payment will be charged to your Apple ID Account at confirmation of purchase. Your subscription automatically renews unless auto-renew is turned off at least 24 hours before the end of the current period. Your Apple ID Account will be charged for renewal within 24 hours prior to the end of the current period at the price listed above. You can manage your subscription and turn off auto-renewal at any time by going to your Apple ID Account Settings after purchase.
 
-**No free trial.** Clem does not currently offer a free trial. The free tier of Clem is available to everyone, at no cost, with no time limit.
+**Free trial.** The annual plan may include a free trial (currently 7 days) for eligible new subscribers. You will not be charged during the trial. When the trial ends, your subscription begins and your Apple ID Account is charged the annual price, unless you cancel at least 24 hours before the trial ends. Trial eligibility is determined by Apple (generally one introductory offer per Apple ID). The free tier of Clem remains available to everyone, at no cost, with no time limit.
 
 **Refunds.** All subscription payments are processed by Apple, and all refund requests are handled by Apple under [Apple's refund policy](https://support.apple.com/en-us/HT204084). Clem cannot issue refunds directly for App Store charges.
 
-**Changes to plans or pricing.** If we change our subscription plans or prices, existing subscribers will be charged the new price only at the next renewal after we notify you; you may cancel before renewal if you do not agree.
+**Changes to plans or pricing.** If we change our subscription plans or prices, we will either keep your current price for as long as your subscription remains active, or notify you before the new price applies at a future renewal; you may cancel before renewal if you do not agree.
 
 ## 7. Acceptable use
 
