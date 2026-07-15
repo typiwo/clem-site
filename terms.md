@@ -44,6 +44,8 @@ You use the Service at your own risk. You acknowledge that the analysis may be i
 
 You need an account to use most of the Service. You can sign in with Apple or Google. You are responsible for maintaining the confidentiality of your sign-in credentials and for any activity under your account.
 
+You can try Clem before signing in: a temporary **anonymous account** holds your onboarding choices and first scan until you sign in and claim them. If you never sign in, that anonymous account and its data are automatically deleted after about 30 days of inactivity.
+
 You can delete your account at any time from inside the app at **Settings → Delete Account**. Deletion is permanent and removes your scan history, cart, saved products, dietary preferences, profile, posts you've shared, follows, likes, comments, and account record within 30 days. Apple subscriptions continue independently and must be canceled separately in your Apple ID Account Settings.
 
 ## 6. Clem Pro subscriptions

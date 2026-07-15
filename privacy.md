@@ -7,7 +7,7 @@ permalink: /privacy/
 # Privacy Policy
 
 **Effective date:** June 26, 2026
-**Last updated:** June 26, 2026
+**Last updated:** July 3, 2026
 
 This Privacy Policy explains how Clem ("**Clem**," "**we**," "**us**," or "**our**") collects, uses, shares, and protects information when you use the Clem mobile app (the "**Service**"). By using Clem, you agree to this Policy.
 
@@ -45,6 +45,9 @@ We intentionally collect as little data as possible. The information we collect 
 **Camera and photo library access (when you scan or set a profile picture)**
 - When you tap to scan a grocery item, or choose a profile picture, iOS will prompt you to allow Clem to use your **camera** and/or **photo library**. You choose whether to grant access. We only access the single photo you capture or select — we do not browse or access any other photos from your library. A photo you scan is stored as a product-catalog image, and — if you post the scan to your feed — also as your personal post image; a photo you choose as a profile picture is stored as your avatar (see Section 4). You can revoke access anytime in **iOS Settings → Privacy → Photos / Camera → Clem**.
 
+**Location (when you grant access)**
+- If you grant location access, Clem uses your device's location to show how far away recommended products are at nearby stores. This happens entirely on your device: your location is never transmitted to our servers or to third parties, and we do not store a history of your location. You can revoke access at any time in iOS Settings, and the app continues to work without it.
+
 **Profile and social information (only if you use the social features)**
 - Clem includes optional social features. If you set up a profile, we collect the profile details you choose to provide: a username, display name, short bio, and avatar.
 - If you follow people, we record your follow relationships — who you follow, who follows you, and any pending follow requests.
@@ -60,7 +63,6 @@ We intentionally collect as little data as possible. The information we collect 
 ### What we do *not* collect
 
 We do not collect or store:
-- Your precise or approximate location.
 - Your contacts, calendar, health data (HealthKit), or other photos from your library.
 - Your advertising identifier (IDFA), device fingerprint, or persistent tracking identifiers.
 - Heatmaps.
@@ -153,6 +155,7 @@ If you enable notifications, we use Expo's push service (operated by 650 Industr
 
 ## 7. How long we keep your data
 
+- **Anonymous trial accounts:** if you start using Clem without signing in, a temporary anonymous account holds your onboarding choices and scans. It becomes your real account when you sign in; if you never sign in, the anonymous account and all of its data are automatically deleted after about **30 days** of inactivity.
 - **Account record, dietary preferences, scan history, cart, saved products, and local subscription-status row:** retained while your account is active, and permanently deleted within **30 days** of account deletion. The 30-day window exists to cover routine encrypted backups; in practice, tapping **Delete Account** in Settings wipes your data from the live database immediately.
 - **Profile, follow relationships, likes, comments, and push tokens:** retained while your account is active and deleted within **30 days** of account deletion. Comments you post remain visible to other users until you delete them or delete your account.
 - **Photos submitted for scanning:** stored in Supabase Storage as a product-catalog image, saved against the product (not your account) and not linked to your identity. Because they are deidentified catalog content keyed to the product rather than to you, these images are retained as part of the shared product catalog and are not tied to — or removed with — your account. Google's retention of the image is governed by its Gemini API terms linked above.
