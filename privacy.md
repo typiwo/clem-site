@@ -7,7 +7,7 @@ permalink: /privacy/
 # Privacy Policy
 
 **Effective date:** June 26, 2026
-**Last updated:** July 3, 2026
+**Last updated:** July 16, 2026
 
 This Privacy Policy explains how Clem ("**Clem**," "**we**," "**us**," or "**our**") collects, uses, shares, and protects information when you use the Clem mobile app (the "**Service**"). By using Clem, you agree to this Policy.
 
@@ -40,13 +40,13 @@ We intentionally collect as little data as possible. The information we collect 
 - We use RevenueCat (RevenueCat Inc., U.S.) to manage your subscription purchases and link them to your account. RevenueCat receives your anonymous user identifier and purchase receipts from Apple.
 
 **Product analytics**
-- We use PostHog (PostHog Inc., U.S.) to log product-analytics events such as screen views, feature interactions (e.g., scans completed, searches performed), and onboarding progress, and to record session replays — playback of your in-app screens and interactions — so we can find and fix usability problems. Session replays have all text you type masked (for example, your email at sign-in is never captured); other on-screen content, including product images, is recorded so we can see what you experienced. Events and replays are linked to your anonymous user identifier. We do not use heatmaps.
+- We use PostHog (PostHog Inc., U.S.) to log product-analytics events such as screen views, feature interactions (e.g., scans completed, searches performed), and onboarding progress, and to record session replays — playback of your in-app screens and interactions — so we can find and fix usability problems. Session replays have all text you type masked (for example, your email at sign-in is never captured); other on-screen content, including product images, is recorded so we can see what you experienced. Events and replays are linked to your anonymous user identifier. We do not use heatmaps. If you use the store-distance feature, these events may also include coarse location-derived signals — store chain names, rounded distance ranges, and a near-a-store indicator — never your coordinates or a precise distance.
 
 **Camera and photo library access (when you scan or set a profile picture)**
 - When you tap to scan a grocery item, or choose a profile picture, iOS will prompt you to allow Clem to use your **camera** and/or **photo library**. You choose whether to grant access. We only access the single photo you capture or select — we do not browse or access any other photos from your library. A photo you scan is stored as a product-catalog image, and — if you post the scan to your feed — also as your personal post image; a photo you choose as a profile picture is stored as your avatar (see Section 4). You can revoke access anytime in **iOS Settings → Privacy → Photos / Camera → Clem**.
 
 **Location (when you grant access)**
-- If you grant location access, Clem uses your device's location to show how far away recommended products are at nearby stores. This happens entirely on your device: your location is never transmitted to our servers or to third parties, and we do not store a history of your location. You can revoke access at any time in iOS Settings, and the app continues to work without it.
+- If you grant location access, Clem uses your device's location to show how far away recommended products are at nearby stores (for example, "1.2 mi at Trader Joe's"). Distances are computed entirely on your device against a locally cached list of store locations: **your coordinates never leave your device** — they are not sent to our servers or to third parties, and we never store your coordinates or a location history. So we can understand and improve the feature, our analytics provider (see Section 6) may receive coarse, coordinate-free signals derived from that on-device comparison — for example the name of a store chain shown on a recommendation, a rounded distance range (such as "1–5 miles"), or whether you were near a listed store when you scanned. These signals never include your coordinates or a precise distance. You can revoke location access at any time in iOS Settings, and the app continues to work without it.
 
 **Profile and social information (only if you use the social features)**
 - Clem includes optional social features. If you set up a profile, we collect the profile details you choose to provide: a username, display name, short bio, and avatar.
@@ -142,7 +142,7 @@ When you scan or search for a product, the image and/or text is sent to Google's
 RevenueCat manages subscription purchases, receipt validation, and entitlement status on our behalf. It receives your anonymous user identifier and Apple purchase receipts. RevenueCat is SOC 2 Type II certified and is based in the United States. See the [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy/).
 
 **PostHog** (product analytics)
-PostHog logs product-analytics events (e.g., scans completed, paywall views, onboarding steps) and records masked session replays (see "Product analytics" in Section 2), linked to your anonymous user identifier. We do not enable heatmaps or autocapture. PostHog is SOC 2 Type II certified and is based in the United States. See the [PostHog Privacy Policy](https://posthog.com/privacy).
+PostHog logs product-analytics events (e.g., scans completed, paywall views, onboarding steps) and records masked session replays (see "Product analytics" in Section 2), linked to your anonymous user identifier. If you use the store-distance feature, these events may include coarse location-derived signals (store chain names, rounded distance ranges, and a near-a-store indicator) — never your coordinates or a precise distance. We do not enable heatmaps or autocapture. PostHog is SOC 2 Type II certified and is based in the United States. See the [PostHog Privacy Policy](https://posthog.com/privacy).
 
 **Apple** (Sign in with Apple, StoreKit for subscriptions)
 Apple handles authentication when you sign in with Apple and handles all payment processing for Clem Pro. Apple's handling of that data is governed by [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
@@ -152,6 +152,8 @@ If you sign in with Google, Google handles that authentication. See the [Google 
 
 **Expo** (push notification delivery)
 If you enable notifications, we use Expo's push service (operated by 650 Industries, Inc., U.S.) to deliver notifications to your device through Apple's Push Notification service (APNs). Expo receives your device push token and the notification content solely to route the message to your device. See the [Expo Privacy Policy](https://expo.dev/privacy-explained).
+
+**Data sources (not recipients of your data).** Product information in Clem draws on public databases, including USDA FoodData Central and Open Food Facts. Store locations shown in the store-distance feature are derived from **OpenStreetMap**, © OpenStreetMap contributors, available under the [Open Database License (ODbL)](https://www.openstreetmap.org/copyright). These are sources we read from to build our catalog; none of them receives any data about you.
 
 ## 7. How long we keep your data
 
