@@ -7,7 +7,7 @@ permalink: /terms/
 # Terms of Service
 
 **Effective date:** June 25, 2026
-**Last updated:** July 3, 2026
+**Last updated:** July 16, 2026
 
 These Terms of Service (the "**Terms**") govern your use of the Clem mobile application and related services (together, the "**Service**"), operated by **Tyler Piwowarski**, an individual sole proprietor based in California ("**Clem**," "**we**," "**us**," or "**our**").
 
@@ -39,6 +39,8 @@ Clem also includes optional **social features** — you can create a profile, fo
 - Detection of recalls, safety alerts, or other time-sensitive product information.
 
 You use the Service at your own risk. You acknowledge that the analysis may be inaccurate and that you are solely responsible for any decisions you make based on it.
+
+**Store availability and distances.** Where Clem indicates that a product may be available at a nearby store (for example, "1.2 mi at Trader Joe's"), this reflects chain-level information about products a retailer generally carries, together with store-location data from third-party sources. It is not a real-time inventory check: a particular store may not stock the item, information may be outdated, and distances are estimates. Availability information is provided "as is" — please confirm with the store. Clem is not affiliated with, sponsored by, or endorsed by any retailer named in the app.
 
 ## 5. Your account
 
@@ -118,7 +120,7 @@ We may suspend or terminate your access, with or without notice, if we reasonabl
 
 **THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITH ALL FAULTS, AND WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE DISCLAIM ALL WARRANTIES, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, AND QUIET ENJOYMENT.**
 
-We do not warrant that the Service will be uninterrupted, secure, error-free, free of harmful components, or that any analysis or data produced by the Service will be accurate, reliable, complete, or appropriate for any particular purpose. We do not warrant that nutritional information, ingredient lists, allergen information, or scores are correct.
+We do not warrant that the Service will be uninterrupted, secure, error-free, free of harmful components, or that any analysis or data produced by the Service will be accurate, reliable, complete, or appropriate for any particular purpose. We do not warrant that nutritional information, ingredient lists, allergen information, store availability or distance information, or scores are correct.
 
 Some jurisdictions do not allow the exclusion of certain warranties, so some of the above exclusions may not apply to you. In that case, such warranties are limited to the minimum scope and duration permitted by applicable law.
 
