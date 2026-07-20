@@ -153,7 +153,7 @@ If you sign in with Google, Google handles that authentication. See the [Google 
 **Expo** (push notification delivery)
 If you enable notifications, we use Expo's push service (operated by 650 Industries, Inc., U.S.) to deliver notifications to your device through Apple's Push Notification service (APNs). Expo receives your device push token and the notification content solely to route the message to your device. See the [Expo Privacy Policy](https://expo.dev/privacy-explained).
 
-**Data sources (not recipients of your data).** Product information in Clem draws on public databases, including USDA FoodData Central and Open Food Facts. Store locations shown in the store-distance feature are derived from **OpenStreetMap**, © OpenStreetMap contributors, available under the [Open Database License (ODbL)](https://www.openstreetmap.org/copyright). These are sources we read from to build our catalog; none of them receives any data about you.
+**Data sources (not recipients of your data).** Product information in Clem draws on public and licensed databases, including [USDA FoodData Central](https://fdc.nal.usda.gov), the [Chomp food database](https://chompthis.com), and Open Food Facts. Store locations shown in the store-distance feature are derived from **OpenStreetMap**, © OpenStreetMap contributors, available under the [Open Database License (ODbL)](https://www.openstreetmap.org/copyright). These are sources we read from to build our catalog; none of them receives any data about you.
 
 ## 7. How long we keep your data
 
