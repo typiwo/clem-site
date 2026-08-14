@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Clem — Scan food, eat smarter</title>
-<meta name="description" content="Clem scores every grocery item 0–100 with a transparent, deterministic formula — then tells you whether it's right for your diet, allergens, and avoidances. Free on iPhone.">
+<title>Clem: Scan food, eat smarter</title>
+<meta name="description" content="Clem scores every grocery item 0–100 with a transparent, deterministic formula, then tells you whether it's right for your diet, allergens, and avoidances. Free on iPhone.">
 <link rel="canonical" href="https://clemapp.com/">
 <meta name="theme-color" content="#F4F3EA">
 <meta name="color-scheme" content="light">
@@ -14,20 +14,20 @@
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Clem">
-<meta property="og:title" content="Clem — Scan food, eat smarter">
-<meta property="og:description" content="A 0–100 grocery score computed by code, not AI — with a personal green/yellow/red verdict for your diet. Free on iPhone.">
+<meta property="og:title" content="Clem: Scan food, eat smarter">
+<meta property="og:description" content="A 0–100 grocery score computed by code, not AI, with a personal green/yellow/red verdict for your diet. Free on iPhone.">
 <meta property="og:url" content="https://clemapp.com/">
 <meta property="og:image" content="https://clemapp.com/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Clem — a food score computed by code, not AI.">
+<meta property="og:image:alt" content="Clem: a food score computed by code, not AI.">
 <meta property="og:locale" content="en_US">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Clem — Scan food, eat smarter">
-<meta name="twitter:description" content="A 0–100 grocery score computed by code, not AI — with a personal green/yellow/red verdict for your diet. Free on iPhone.">
+<meta name="twitter:title" content="Clem: Scan food, eat smarter">
+<meta name="twitter:description" content="A 0–100 grocery score computed by code, not AI, with a personal green/yellow/red verdict for your diet. Free on iPhone.">
 <meta name="twitter:image" content="https://clemapp.com/assets/og.png">
-<meta name="twitter:image:alt" content="Clem — a food score computed by code, not AI.">
+<meta name="twitter:image:alt" content="Clem: a food score computed by code, not AI.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,8 +51,8 @@
   "publisher": { "@type": "Person", "name": "Tyler Piwowarski" },
   "offers": [
     { "@type": "Offer", "name": "Clem (free)", "price": "0", "priceCurrency": "USD", "category": "free" },
-    { "@type": "Offer", "name": "Clem Pro — Monthly", "price": "4.99", "priceCurrency": "USD" },
-    { "@type": "Offer", "name": "Clem Pro — Annual", "price": "29.99", "priceCurrency": "USD" }
+    { "@type": "Offer", "name": "Clem Pro Monthly", "price": "4.99", "priceCurrency": "USD" },
+    { "@type": "Offer", "name": "Clem Pro Annual", "price": "29.99", "priceCurrency": "USD" }
   ],
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -65,15 +65,15 @@
 </script>
 
 <style>
-/* ── Tokens — every value traces to DESIGN.md §2 / §4 ───────────────── */
+/* ── Tokens: every value traces to DESIGN.md §2 / §4 ───────────────── */
 :root{
   /* Ground */
   --bone:#F4F3EA; --card:#FFFFFF; --bone-warm:#F2EED8; --bone-deep:#E8E3C8; --chip-bone:#FBF8EC;
   /* Ink */
   --ink:#212220; --ink-deep:#1F140F; --muted:#56594F; --faint:#9A9D93; --hair:rgba(30,40,30,0.12);
-  /* Green — health meaning */
+  /* Green: health meaning */
   --grass:#2E8B4F; --grass-light:#6FA84A; --grass-deep:#1E4D3A;
-  /* Orange — accent + CTA only */
+  /* Orange: accent and CTA only */
   --orange:#F26A21; --orange-deep:#E0552B;
   /* Warn */
   --mustard:#E7A52B; --gold:#F6C44E; --brick:#B13A28;
@@ -111,7 +111,7 @@ p{max-width:62ch}
 .small{font-size:14px;line-height:1.6;color:var(--muted)}
 .dark .small,.plan-pro .small,.site-footer .small{color:rgba(244,243,234,0.72)}
 
-/* Eyebrow — em-dash prefix, DM Sans 800, 2px tracking (DESIGN.md §3).
+/* Eyebrow: em-dash prefix, DM Sans 800, 2px tracking (DESIGN.md §3).
    --brick on light grounds: the orange family cannot clear §8's 4.5:1 at 11px. */
 .eyebrow{
   display:block;font-family:'DM Sans',sans-serif;font-weight:800;
@@ -157,7 +157,7 @@ section{padding:96px 0}
 .dark .btn-secondary{border-color:rgba(244,243,234,0.25);color:var(--bone)}
 .dark .btn-secondary:hover{border-color:var(--bone)}
 
-/* Official Apple badge — unmodified artwork, clear space preserved */
+/* Official Apple badge: unmodified artwork, clear space preserved */
 .badge{display:inline-block;line-height:0;padding:6px;transition:transform .18s}
 .badge:hover{transform:translateY(-2px)}
 .badge img{height:54px;width:auto;display:block}
@@ -198,7 +198,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--orange);outline-off
 }
 .chip-neutral{background:var(--bone-warm);color:var(--ink)}
 
-/* ── Score sticker — the one hard offset shadow in the system ───────── */
+/* ── Score sticker: the one hard offset shadow in the system ───────── */
 .score{
   width:96px;height:96px;border-radius:50%;background:var(--ink-deep);
   display:grid;place-items:center;transform:rotate(13deg);
@@ -218,7 +218,7 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--orange);outline-off
 .band-fair{background:var(--mustard);color:var(--ink-deep)}
 .band-poor{background:var(--orange-deep);color:var(--chip-bone)}
 
-/* ── Pull quote — Clem's Take (DESIGN.md §5) ────────────────────────── */
+/* ── Pull quote: Clem's Take (DESIGN.md §5) ────────────────────────── */
 .take{background:var(--bone);border-left:4px solid var(--orange);padding:16px 20px;border-radius:0}
 .take .label{color:var(--brick);letter-spacing:1.5px;margin-bottom:8px;display:block}
 .take p{font-family:'Fraunces',Georgia,serif;font-size:17px;line-height:1.5;color:var(--ink);max-width:none}
@@ -378,7 +378,7 @@ td a:hover{text-decoration:none}
       <div>
         <span class="eyebrow">— Now on the App Store</span>
         <h1>Scan a label. Get a score you can <em>check.</em></h1>
-        <p class="lede">Clem reads the label and scores the food 0&ndash;100 on five research-backed dimensions &mdash; then tells you whether it&rsquo;s right for your diet, your allergens, and the things you&rsquo;d rather avoid.</p>
+        <p class="lede">Clem reads the label and scores the food 0&ndash;100 on five research-backed dimensions, then tells you whether it&rsquo;s right for your diet, your allergens, and the things you&rsquo;d rather avoid.</p>
         <div class="cta-row">
           <a class="badge" href="https://apps.apple.com/us/app/clem-food-health-scanner/id6760143309">
             <img src="/assets/app-store-badge.svg" width="162" height="54" alt="Download Clem on the App Store">
@@ -415,7 +415,7 @@ td a:hover{text-decoration:none}
     <div class="head-block">
       <span class="eyebrow">— How it works</span>
       <h2>AI reads the label. Code computes the <em>score.</em></h2>
-      <p class="lede">The number isn&rsquo;t an opinion. It&rsquo;s a weighted formula over five dimensions, run on the label Clem just read. Scan the same product twice and you get the same score &mdash; and so does everyone else.</p>
+      <p class="lede">The number isn&rsquo;t an opinion. It&rsquo;s a weighted formula over five dimensions, run on the label Clem just read. Scan the same product twice and you get the same score. So does everyone else.</p>
     </div>
     <p class="script">Same food, same number.</p>
     <div class="split">
@@ -433,7 +433,7 @@ td a:hover{text-decoration:none}
         <ul>
           <li>Reads the product label out of your photo</li>
           <li>Writes Clem&rsquo;s Take, the short editorial read</li>
-          <li>Nothing else &mdash; it never touches the math</li>
+          <li>Nothing else. It never touches the math</li>
         </ul>
       </div>
     </div>
@@ -471,7 +471,7 @@ td a:hover{text-decoration:none}
           <tr>
             <td class="dim">Processing</td>
             <td class="weight">25%</td>
-            <td>NOVA classification &mdash; ultra-processed foods are linked to higher disease risk across 9.9M participants.</td>
+            <td>NOVA classification. Ultra-processed foods are linked to higher disease risk across 9.9M participants.</td>
             <td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10899807/" rel="noopener">Lane et al., 2024 &middot; BMJ</a></td>
           </tr>
           <tr>
@@ -489,7 +489,7 @@ td a:hover{text-decoration:none}
           <tr>
             <td class="dim">Nutrient Density</td>
             <td class="weight">10%</td>
-            <td>Credit for foods that actually nourish &mdash; protein, fiber, and nutrient density.</td>
+            <td>Credit for foods that actually nourish: protein, fiber, and nutrient density.</td>
             <td>ANDI nutrient-density framework</td>
           </tr>
         </tbody>
@@ -554,7 +554,7 @@ td a:hover{text-decoration:none}
         <span class="eyebrow">— The verdict</span>
         <h2>The number rates the food. The verdict is about <em>you.</em></h2>
         <hr class="rule">
-        <p class="lede">Tell Clem your diet, your allergens, and what you&rsquo;d rather avoid. The score stays exactly the same &mdash; what changes is the call Clem makes on it.</p>
+        <p class="lede">Tell Clem your diet, your allergens, and what you&rsquo;d rather avoid. The score stays exactly the same. What changes is the call Clem makes on it.</p>
         <p class="small" style="margin-top:16px">Diets: Standard, Keto, Paleo, Mediterranean, Vegan, Vegetarian. Allergen flags: gluten, dairy, tree nuts. Avoidances: seed oils, added sugars, additives, ultra-processed foods.</p>
       </div>
       <div class="card card-lg">
@@ -569,7 +569,7 @@ td a:hover{text-decoration:none}
           <span class="verdict-dot" style="background:var(--mustard)"></span>
           <div>
             <h3>Yellow &middot; Worth a Look</h3>
-            <p>Doesn&rsquo;t fully fit your goals &mdash; maybe a diet mismatch, like carbs on keto, or something on your watchlist.</p>
+            <p>Doesn&rsquo;t fully fit your goals: maybe a diet mismatch, like carbs on keto, or something on your watchlist.</p>
           </div>
         </div>
         <div class="verdict">
@@ -627,7 +627,7 @@ td a:hover{text-decoration:none}
       <div class="card feature">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg>
         <h3>Healthier alternatives</h3>
-        <p>Real products from the database that score better &mdash; not generic advice.</p>
+        <p>Real products from the database that score better, not generic advice.</p>
       </div>
       <div class="card feature">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A2.5 2.5 0 0 1 17.5 17H9l-4 3V6.5A2.5 2.5 0 0 1 7.5 4h10A2.5 2.5 0 0 1 20 6.5z"/><path d="M9 9h6M9 12.5h4"/></svg>
@@ -686,7 +686,7 @@ td a:hover{text-decoration:none}
       <span class="eyebrow">— Pricing</span>
       <h2>Free covers the whole <em>analysis.</em></h2>
       <hr class="rule">
-      <p class="lede">Clem Pro lifts the limits. It doesn&rsquo;t unlock the thinking &mdash; every scan you take on the free plan is the complete one.</p>
+      <p class="lede">Clem Pro lifts the limits. It doesn&rsquo;t unlock the thinking. Every scan you take on the free plan is the complete one.</p>
     </div>
     <div class="plans">
       <div class="plan">
@@ -707,17 +707,17 @@ td a:hover{text-decoration:none}
       <div class="plan plan-pro">
         <div class="plan-h"><h3 style="color:var(--bone)">Clem Pro</h3><span class="chip" style="background:var(--gold);color:var(--ink-deep)">7-day trial on annual</span></div>
         <div class="price">$4.99<span style="font-family:'DM Sans',sans-serif;font-size:15px;font-weight:500"> / month</span></div>
-        <div class="price-note">or $29.99 a year &mdash; $2.49 a month, about half the monthly price.</div>
+        <div class="price-note">or $29.99 a year ($2.49 a month, about half the monthly price).</div>
         <ul>
           <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>Unlimited scans, every week</span></li>
           <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>Every better pick &mdash; all swaps + browse</span></li>
           <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>Unlimited search, any product</span></li>
         </ul>
         <a class="btn-primary" href="https://apps.apple.com/us/app/clem-food-health-scanner/id6760143309">Get Clem Pro</a>
-        <p class="small" style="margin-top:20px">The annual plan currently includes a 7-day free trial for eligible new subscribers &mdash; eligibility is set by Apple. Subscriptions are billed through your Apple ID and renew automatically until you turn off auto-renew, at least 24 hours before the period ends. Manage or cancel any time in your Apple ID settings. Full <a href="/terms/" style="color:var(--gold)">subscription terms</a>.</p>
+        <p class="small" style="margin-top:20px">The annual plan currently includes a 7-day free trial for eligible new subscribers. Eligibility is set by Apple. Subscriptions are billed through your Apple ID and renew automatically until you turn off auto-renew, at least 24 hours before the period ends. Manage or cancel any time in your Apple ID settings. Full <a href="/terms/" style="color:var(--gold)">subscription terms</a>.</p>
       </div>
     </div>
-    <p class="free-note"><b>Personalized scoring is free.</b> The score, the report card and the verdict are not Pro features &mdash; Pro raises the limits, not the quality of the answer.</p>
+    <p class="free-note"><b>Personalized scoring is free.</b> The score, the report card and the verdict are not Pro features. Pro raises the limits, not the quality of the answer.</p>
   </div>
 </section>
 
@@ -763,7 +763,7 @@ td a:hover{text-decoration:none}
     <div class="footer-top">
       <div>
         <a class="brand" href="/" style="color:var(--bone)">Clem</a>
-        <p class="small" style="margin-top:8px">Clem: Food Health Scanner &mdash; version 1.4.1, iPhone.</p>
+        <p class="small" style="margin-top:8px">Clem: Food Health Scanner. Version 1.4.1, iPhone.</p>
       </div>
       <div class="footer-links">
         <a href="https://apps.apple.com/us/app/clem-food-health-scanner/id6760143309">App Store</a>
