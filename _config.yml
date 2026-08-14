@@ -1,5 +1,5 @@
 title: Clem
-description: AI-powered grocery health scoring for iOS.
+description: A 0-100 grocery score computed by code, not AI, with a personal verdict for your diet. Free on iPhone.
 url: https://clemapp.com
 markdown: kramdown
 permalink: /:title/
@@ -7,6 +7,8 @@ permalink: /:title/
 exclude:
   - README.md
   - LAUNCH-OPS.md
+  - DESIGN.md
+  - SITE-REFRESH-BRIEF.md
 
 defaults:
   - scope:
