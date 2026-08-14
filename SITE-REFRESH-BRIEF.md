@@ -89,6 +89,15 @@ The App Store screenshots in the app repo (`screenshots/final-6.9/`) are dated *
 
 (Separately worth raising with Tyler: the live App Store listing is showing these same stale screenshots.)
 
+> **Correction, 2026-08-13.** That last parenthetical is wrong. The live listing serves
+> `screenshots/final/` (July 7) — its image URLs end in `01-hero.png`, `02-scan.png`,
+> `03-score.png`, `04-clems-take.png`, `05-for-you.png`, `06-better-choices.png`,
+> `07-feed.png`, `08-download.png`, and the artwork shows the current Fruit Stand design.
+> Nothing needs replacing on the store, and no build or version bump is required.
+> The rest of §E stands: `screenshots/final-6.9/` really is the retired June 3 set.
+> One caveat — the alternatives/swaps UI was reworked July 17–20, so `06-better-choices`
+> may now predate 1.4.1 even though the rest of the set does not.
+
 ---
 
 ## F. Definition of done
