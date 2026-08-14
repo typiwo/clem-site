@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page.title }} — {{ site.title }}</title>
+<title>{{ page.title }} &middot; {{ site.title }}</title>
 <meta name="description" content="{{ page.description | default: site.description }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 <meta name="theme-color" content="#F4F3EA">
@@ -12,7 +12,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Clem">
-<meta property="og:title" content="{{ page.title }} — {{ site.title }}">
+<meta property="og:title" content="{{ page.title }} &middot; {{ site.title }}">
 <meta property="og:description" content="{{ page.description | default: site.description }}">
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
 <meta property="og:image" content="{{ '/assets/og.png' | absolute_url }}">
@@ -21,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
 <style>
-/* Tokens — DESIGN.md §2 / §4. Same system as the landing page. */
+/* Tokens: DESIGN.md §2 / §4. Same system as the landing page. */
 :root{
   --bone:#F4F3EA; --card:#FFFFFF; --bone-warm:#F2EED8; --bone-deep:#E8E3C8; --chip-bone:#FBF8EC;
   --ink:#212220; --ink-deep:#1F140F; --muted:#56594F; --faint:#9A9D93; --hair:rgba(30,40,30,0.12);
@@ -78,7 +78,7 @@ strong{font-weight:700}
 a{color:var(--brick);text-decoration:underline;text-underline-offset:2px}
 a:hover{text-decoration:none}
 hr{border:none;border-top:1px solid var(--hair);margin:48px 0}
-/* Pull quote — DESIGN.md §5: bone ground, 4px orange left border, nothing else */
+/* Pull quote, DESIGN.md §5: bone ground, 4px orange left border, nothing else */
 blockquote{
   margin:24px 0;padding:16px 20px;
   background:var(--bone-warm);border-left:4px solid var(--orange);
@@ -153,7 +153,7 @@ footer.site a.brand{color:var(--bone);font-size:26px}
     <div class="footer-top">
       <div>
         <a href="/" class="brand">Clem</a>
-        <p class="copyright" style="margin-top:8px">Clem: Food Health Scanner — version 1.4.1, iPhone.</p>
+        <p class="copyright" style="margin-top:8px">Clem: Food Health Scanner. Version 1.4.1, iPhone.</p>
       </div>
       <nav class="footer-links" aria-label="Footer">
         <a href="/">Home</a>
