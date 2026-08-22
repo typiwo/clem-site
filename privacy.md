@@ -6,8 +6,8 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Effective date:** June 26, 2026
-**Last updated:** July 16, 2026
+**Effective date:** August 22, 2026
+**Last updated:** August 22, 2026
 
 This Privacy Policy explains how Clem ("**Clem**," "**we**," "**us**," or "**our**") collects, uses, shares, and protects information when you use the Clem mobile app (the "**Service**"). By using Clem, you agree to this Policy.
 
@@ -30,6 +30,9 @@ We intentionally collect as little data as possible. The information we collect 
 - Your selected diet type (e.g., standard, keto, vegan).
 - Your dietary alert toggles (e.g., avoid seed oils, gluten-free, dairy-free, nut-free).
 
+**About you (optional)**
+- During onboarding, and later in Settings, you can choose to tell us your age range, gender, who you shop for, how often you grocery shop, and where you usually shop. Every question has a "Prefer not to say" option and you can skip or clear these answers at any time in **Settings → About you**. We use these answers only in aggregate to understand who uses Clem and to improve the product. They are never used for advertising, never shared with advertisers, and never sent to the AI that analyzes your food.
+
 **Scan and cart data**
 - The text analysis results from your grocery scans (score, ingredients summary, highlights, nutrition details).
 - The photo you scan, stored as a shared product-catalog image keyed to the product (not to you). See Section 4.
@@ -40,7 +43,7 @@ We intentionally collect as little data as possible. The information we collect 
 - We use RevenueCat (RevenueCat Inc., U.S.) to manage your subscription purchases and link them to your account. RevenueCat receives your anonymous user identifier and purchase receipts from Apple.
 
 **Product analytics**
-- We use PostHog (PostHog Inc., U.S.) to log product-analytics events such as screen views, feature interactions (e.g., scans completed, searches performed), and onboarding progress, and to record session replays — playback of your in-app screens and interactions — so we can find and fix usability problems. Session replays have all text you type masked (for example, your email at sign-in is never captured); other on-screen content, including product images, is recorded so we can see what you experienced. Events and replays are linked to your anonymous user identifier. We do not use heatmaps. If you use the store-distance feature, these events may also include coarse location-derived signals — store chain names, rounded distance ranges, and a near-a-store indicator — never your coordinates or a precise distance.
+- We use PostHog (PostHog Inc., U.S.) to log product-analytics events such as screen views, feature interactions (e.g., scans completed, searches performed), onboarding progress and the answers you give to onboarding questions (your goals, and — only if you choose to share them — the optional About-you answers above), which PostHog stores as properties of your anonymous analytics profile so we can understand usage by audience, and to record session replays — playback of your in-app screens and interactions — so we can find and fix usability problems. Session replays have all text you type masked (for example, your email at sign-in is never captured); other on-screen content, including product images, is recorded so we can see what you experienced. Events and replays are linked to your anonymous user identifier. We do not use heatmaps. If you use the store-distance feature, these events may also include coarse location-derived signals — store chain names, rounded distance ranges, and a near-a-store indicator — never your coordinates or a precise distance.
 
 **Camera and photo library access (when you scan or set a profile picture)**
 - When you tap to scan a grocery item, or choose a profile picture, iOS will prompt you to allow Clem to use your **camera** and/or **photo library**. You choose whether to grant access. We only access the single photo you capture or select — we do not browse or access any other photos from your library. A photo you scan is stored as a product-catalog image, and — if you post the scan to your feed — also as your personal post image; a photo you choose as a profile picture is stored as your avatar (see Section 4). You can revoke access anytime in **iOS Settings → Privacy → Photos / Camera → Clem**.
@@ -158,7 +161,7 @@ If you enable notifications, we use Expo's push service (operated by 650 Industr
 ## 7. How long we keep your data
 
 - **Anonymous trial accounts:** if you start using Clem without signing in, a temporary anonymous account holds your onboarding choices and scans. It becomes your real account when you sign in; if you never sign in, the anonymous account and all of its data are automatically deleted after about **30 days** of inactivity.
-- **Account record, dietary preferences, scan history, cart, saved products, and local subscription-status row:** retained while your account is active, and permanently deleted within **30 days** of account deletion. The 30-day window exists to cover routine encrypted backups; in practice, tapping **Delete Account** in Settings wipes your data from the live database immediately.
+- **Account record, dietary preferences, your optional About-you answers, scan history, cart, saved products, and local subscription-status row:** retained while your account is active, and permanently deleted within **30 days** of account deletion. You can also clear your About-you answers at any time in **Settings → About you** without deleting your account. The 30-day window exists to cover routine encrypted backups; in practice, tapping **Delete Account** in Settings wipes your data from the live database immediately.
 - **Profile, follow relationships, likes, comments, and push tokens:** retained while your account is active and deleted within **30 days** of account deletion. Comments you post remain visible to other users until you delete them or delete your account.
 - **Photos submitted for scanning:** stored in Supabase Storage as a product-catalog image, saved against the product (not your account) and not linked to your identity. Because they are deidentified catalog content keyed to the product rather than to you, these images are retained as part of the shared product catalog and are not tied to — or removed with — your account. Google's retention of the image is governed by its Gemini API terms linked above.
 - **Photos and captions you post to your social feed:** the copy stored as your user content is retained until you **delete the scan or post** (or your account), at which point it is removed. We may also remove content that violates our community guidelines. This is separate from the deidentified product-catalog copy described in the bullet above.
@@ -185,7 +188,7 @@ If you are in the EEA, the United Kingdom, or Switzerland, the General Data Prot
 
 **Legal bases we rely on.**
 - **Performance of a contract** (GDPR Art. 6(1)(b)) — to provide the Service you asked for.
-- **Consent** (Art. 6(1)(a)) — for the optional dietary alert personalization you configure.
+- **Consent** (Art. 6(1)(a)) — for the optional dietary alert personalization you configure, and for the optional About-you answers you choose to share; withdraw anytime by clearing them in **Settings → About you**.
 - **Legitimate interests** (Art. 6(1)(f)) — to keep the Service secure and prevent abuse.
 
 **Your rights.** You have the right to access, rectify, erase, restrict, or object to our processing, the right to data portability, and the right to withdraw consent. Email privacy@clemapp.com to exercise any of these.
@@ -198,7 +201,7 @@ If you are in the EEA, the United Kingdom, or Switzerland, the General Data Prot
 
 If you are a California resident, the California Consumer Privacy Act, as amended by the CPRA, gives you specific rights.
 
-**Categories of personal information we collect.** Identifiers (email, user ID, username, and — if you enable notifications — a device push token); customer-account information (name, profile details, subscription status); commercial information (products you've scanned, saved, or added to cart); internet/other electronic network activity (your interactions with the Service, including follows, likes, and comments, and masked session replays of your app usage); and user content (comments you post, captions and photos you post to your social feed, profile information you provide, and photos you submit for scanning, stored as deidentified product-catalog images keyed to the product rather than to you).
+**Categories of personal information we collect.** Identifiers (email, user ID, username, and — if you enable notifications — a device push token); customer-account information (name, profile details, subscription status); characteristics of protected classifications under California or federal law (age range and gender — only if you choose to provide them in the optional About-you questions); commercial information (products you've scanned, saved, or added to cart); internet/other electronic network activity (your interactions with the Service, including follows, likes, and comments, and masked session replays of your app usage); and user content (comments you post, captions and photos you post to your social feed, profile information you provide, and photos you submit for scanning, stored as deidentified product-catalog images keyed to the product rather than to you).
 
 **Categories of sources.** Directly from you; from Apple or Google at sign-in; and generated by your use of the Service.
 
@@ -206,7 +209,7 @@ If you are a California resident, the California Consumer Privacy Act, as amende
 
 **Third parties we share with.** Service providers only, as listed in Section 6. Separately, when you use the social features, information you choose to share — your profile, the scans you share, and your likes and comments — is visible to other users of the Service at your direction. **We do not sell your personal information, and we do not share it for cross-context behavioral advertising.** We have not done so in the past 12 months.
 
-**Your rights under the CCPA/CPRA.** You have the right to know what we collect, to delete your personal information, to correct inaccurate information, to opt out of sale or sharing (not applicable — we do neither), to limit the use of sensitive personal information (we do not collect sensitive personal information), and not to be discriminated against for exercising these rights.
+**Your rights under the CCPA/CPRA.** You have the right to know what we collect, to delete your personal information, to correct inaccurate information, to opt out of sale or sharing (not applicable — we do neither), to limit the use of sensitive personal information (we do not collect sensitive personal information as defined by the CCPA/CPRA — the optional gender and age-range answers you may choose to share are not sensitive personal information under the CPRA; residents of states that treat gender identity as sensitive data provide it only by their affirmative, optional choice and can delete it at any time), and not to be discriminated against for exercising these rights.
 
 **How to exercise your rights.** Email privacy@clemapp.com, or use **Settings → Delete Account** in the app. We will respond within 45 days. We verify requests by matching the email address on your account.
 
@@ -221,6 +224,8 @@ To exercise these rights, email **privacy@clemapp.com**. We will respond within 
 Clem is not directed at children under 13, and we do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has created an account, email privacy@clemapp.com and we will delete the account and any associated data.
 
 Clem is rated **4+** on the App Store because it contains no objectionable content, but the service itself is intended for general audiences 13 and older.
+
+The optional About-you questions ask for an age *range* (never a birthdate), and the lowest bucket is "Under 18." If you tell us you are under 18, nothing about the Service changes, and we do not collect any additional information because of it.
 
 **Teen users (13–17).** Users between the ages of 13 and 17 may use Clem only with the consent of a parent or legal guardian. By using the Service, users under 18 represent that they have obtained such consent. In jurisdictions that require parental consent for users under 16 (such as certain EEA member states under GDPR Article 8), that higher age threshold applies instead. Parents or guardians may request deletion of a minor's account by emailing privacy@clemapp.com.
 
@@ -244,6 +249,9 @@ No system is perfectly secure. If we discover a breach affecting your personal i
 ## 15. Changes to this Policy
 
 We may update this Policy from time to time. If we make a material change, we will update the Effective Date at the top and notify you in the app or by email. Your continued use of the Service after an update constitutes acceptance of the updated Policy.
+
+**Change log.**
+- **August 2026:** Added the optional "About you" questions (age range, gender, who you shop for, and shopping habits), collected only if you choose to share them and used only in aggregate to understand who uses Clem. In-app notice is provided by the "Privacy" link on the About-you screen itself.
 
 A diff history of every change is publicly visible in the Git history of the repository that hosts this page.
 
