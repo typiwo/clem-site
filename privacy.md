@@ -35,6 +35,7 @@ We intentionally collect as little data as possible. The information we collect 
 
 **Scan and cart data**
 - The text analysis results from your grocery scans (score, ingredients summary, highlights, nutrition details).
+- Scan diagnostics stored alongside each scan attempt (including attempts that fail), so we can see which products people look for and keep scanning fast and reliable: how you scanned (camera, photo library, or barcode), the barcode or product identified, which data source answered, processing times, your app version, iOS version and device model, language/locale, time-zone offset, the country your request came from (derived from the network request, never from your device's location), and a snapshot of your dietary preferences at the time of the scan. This never includes your coordinates.
 - The photo you scan, stored as a shared product-catalog image keyed to the product (not to you). See Section 4.
 - Products you add to your cart or save.
 
