@@ -29,6 +29,7 @@ We intentionally collect as little data as possible. The information we collect 
 **Dietary preferences**
 - Your selected diet type (e.g., standard, keto, vegan).
 - Your dietary alert toggles (e.g., avoid seed oils, gluten-free, dairy-free, nut-free).
+- Your watch list: ingredients and nutrition rules you choose to track (for example "sesame", or "sodium over 460 mg per serving"). Your watch list is private to your account and is never shown on your public profile.
 
 **About you (optional)**
 - During onboarding, and later in Settings, you can choose to tell us your age range, gender, who you shop for, how often you grocery shop, and where you usually shop. Every question has a "Prefer not to say" option and you can skip or clear these answers at any time in **Settings → About you**. We use these answers only in aggregate to understand who uses Clem and to improve the product. They are never used for advertising, never shared with advertisers, and never sent to the AI that analyzes your food.
@@ -78,6 +79,7 @@ We do **not** use any advertising, attribution, or behavioral-tracking SDKs.
 We use your information solely to:
 - Provide the scanning, scoring, search, and cart features.
 - Personalize your dietary alerts based on the preferences you set.
+- Check scanned products against your watch list and show you the matches.
 - Validate your Clem Pro subscription.
 - Operate the optional social features you choose to use (profiles, following, the activity feed, posts you share, likes, and comments).
 - Deliver in-app and push notifications about activity relevant to you, such as new followers, follow requests, likes, and comments.
