@@ -7,13 +7,13 @@ permalink: /privacy/
 # Privacy Policy
 
 **Effective date:** August 22, 2026
-**Last updated:** August 22, 2026
+**Last updated:** September 8, 2026
 
 This Privacy Policy explains how Clem ("**Clem**," "**we**," "**us**," or "**our**") collects, uses, shares, and protects information when you use the Clem mobile app (the "**Service**"). By using Clem, you agree to this Policy.
 
 ## 1. Who we are
 
-Clem is operated by **Tyler Piwowarski**, an individual sole proprietor based in California, United States. In this Policy, "we" refers to this operator acting under the Clem brand. If you have any questions, you can reach us at **privacy@clemapp.com**.
+Clem is operated by **Clemapp, Inc.**, a Delaware corporation with its principal place of business in Texas, United States. In this Policy, "we" refers to Clemapp, Inc. acting under the Clem brand. If you have any questions, you can reach us at **privacy@clemapp.com**.
 
 **Business succession.** In the event Clem is sold, transferred, merged, or discontinued, user data may be transferred to a successor entity. We will provide reasonable advance notice to users by email, and any successor will be required to honor this Privacy Policy or obtain fresh consent before making material changes to how your data is handled.
 
@@ -187,7 +187,7 @@ You can:
 
 If you are in the EEA, the United Kingdom, or Switzerland, the General Data Protection Regulation (or the UK GDPR) gives you specific rights.
 
-**Data controller.** Tyler Piwowarski, operating Clem, is the data controller for the personal data described in this Policy. You can reach the controller at privacy@clemapp.com.
+**Data controller.** Clemapp, Inc. is the data controller for the personal data described in this Policy. You can reach the controller at privacy@clemapp.com.
 
 **Legal bases we rely on.**
 - **Performance of a contract** (GDPR Art. 6(1)(b)) — to provide the Service you asked for.
@@ -254,6 +254,7 @@ No system is perfectly secure. If we discover a breach affecting your personal i
 We may update this Policy from time to time. If we make a material change, we will update the Effective Date at the top and notify you in the app or by email. Your continued use of the Service after an update constitutes acceptance of the updated Policy.
 
 **Change log.**
+- **September 2026:** Clem is now operated by Clemapp, Inc., a Delaware corporation, which has succeeded Tyler Piwowarski as the operator of the Service and the data controller for your personal data. Nothing about what we collect, how we use it, who we share it with, or your rights has changed as a result.
 - **August 2026:** Added the optional "About you" questions (age range, gender, who you shop for, and shopping habits), collected only if you choose to share them and used only in aggregate to understand who uses Clem. In-app notice is provided by the "Privacy" link on the About-you screen itself.
 
 A diff history of every change is publicly visible in the Git history of the repository that hosts this page.
@@ -264,5 +265,7 @@ For questions or requests about this Policy or your data, email:
 
 **privacy@clemapp.com**
 
-Tyler Piwowarski, operating Clem
-California, United States
+Clemapp, Inc.
+3227 McKinney Ave
+Dallas, TX 75204
+United States

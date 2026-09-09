@@ -7,9 +7,9 @@ permalink: /terms/
 # Terms of Service
 
 **Effective date:** June 25, 2026
-**Last updated:** July 16, 2026
+**Last updated:** September 8, 2026
 
-These Terms of Service (the "**Terms**") govern your use of the Clem mobile application and related services (together, the "**Service**"), operated by **Tyler Piwowarski**, an individual sole proprietor based in California ("**Clem**," "**we**," "**us**," or "**our**").
+These Terms of Service (the "**Terms**") govern your use of the Clem mobile application and related services (together, the "**Service**"), operated by **Clemapp, Inc.**, a Delaware corporation with its principal place of business in Texas ("**Clem**," "**we**," "**us**," or "**our**").
 
 **Please read these Terms carefully.** They include a binding arbitration provision and class-action waiver in Section 14 that affect how disputes between you and Clem are resolved.
 
@@ -102,7 +102,7 @@ Clem's social features let you post content — including the **photos** from yo
 
 ## 9. Intellectual property
 
-**Clem's content.** The Clem name, logo, app, user interface, text, AI analyses, product database, and other content we provide are owned by the operator or licensed to it, and are protected by copyright, trademark, and other laws. We grant you a limited, non-exclusive, non-transferable, revocable license to use the Service for your personal, non-commercial use, consistent with these Terms.
+**Clem's content.** The Clem name, logo, app, user interface, text, AI analyses, product database, and other content we provide are owned by Clem or licensed to it, and are protected by copyright, trademark, and other laws. We grant you a limited, non-exclusive, non-transferable, revocable license to use the Service for your personal, non-commercial use, consistent with these Terms.
 
 **Your content.** You retain all rights in the photos you submit to Clem for scanning. By submitting a photo, you grant us a limited, worldwide, royalty-free license to process that photo solely for the purpose of generating your requested analysis (including transmitting it to Google Gemini for AI analysis as described in our [Privacy Policy](/privacy/)). This license ends as soon as the analysis is complete. We do not retain a photo you scan only for analysis; however, if you choose to **post** a scan to your social feed, the photo and your caption are stored and displayed as user content under the license in Section 8.
 
@@ -128,16 +128,16 @@ Some jurisdictions do not allow the exclusion of certain warranties, so some of 
 
 **TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:**
 
-- **No indirect damages.** Clem and its operator will not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages — including loss of profits, data, use, goodwill, or other intangible losses — arising out of or relating to your use of or inability to use the Service, even if we have been advised of the possibility of such damages.
+- **No indirect damages.** Clem and its officers, directors, employees, and agents will not be liable for any indirect, incidental, special, consequential, exemplary, or punitive damages — including loss of profits, data, use, goodwill, or other intangible losses — arising out of or relating to your use of or inability to use the Service, even if we have been advised of the possibility of such damages.
 - **Aggregate cap.** Clem's total aggregate liability to you for all claims arising out of or relating to these Terms or the Service will not exceed the **greater of (a) one hundred U.S. dollars ($100 USD) or (b) the total amount you paid to Clem for the Service in the twelve (12) months immediately preceding the event giving rise to the claim**.
 
-**What we do not limit.** Nothing in these Terms limits or excludes liability that cannot be limited or excluded under applicable law, including (where applicable) liability for fraud, fraudulent misrepresentation, gross negligence, willful misconduct, personal injury caused by negligence, or any liability that cannot be limited under California Civil Code § 1668 or other non-waivable consumer protections.
+**What we do not limit.** Nothing in these Terms limits or excludes liability that cannot be limited or excluded under applicable law, including (where applicable) liability for fraud, fraudulent misrepresentation, gross negligence, willful misconduct, personal injury caused by negligence, or any liability that cannot be limited or excluded under applicable non-waivable consumer protection law.
 
 This limitation is an essential element of the bargain between you and Clem. If you are dissatisfied with the Service, your exclusive remedy is to stop using it and (if applicable) to cancel your subscription.
 
 ## 13. Indemnification
 
-You agree to defend, indemnify, and hold harmless Clem and its operator from and against any claims, damages, obligations, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from: (a) your use of the Service in violation of these Terms; (b) your violation of any law or the rights of a third party; or (c) any content you submit to the Service.
+You agree to defend, indemnify, and hold harmless Clem and its officers, directors, employees, and agents from and against any claims, damages, obligations, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising from: (a) your use of the Service in violation of these Terms; (b) your violation of any law or the rights of a third party; or (c) any content you submit to the Service.
 
 ## 14. Dispute resolution — arbitration agreement, class-action waiver
 
@@ -149,7 +149,7 @@ Before filing any formal proceeding, you agree to contact us at **privacy@clemap
 
 ### 14.2 Binding arbitration
 
-If informal resolution does not succeed, any dispute, claim, or controversy arising out of or relating to these Terms or the Service will be resolved by binding individual arbitration administered by the **American Arbitration Association (AAA)** under its **Consumer Arbitration Rules**. The arbitration will take place in California, or (if you request) via telephone or videoconference. The arbitrator — not a court — will decide any issue concerning the scope, enforceability, or formation of this arbitration agreement.
+If informal resolution does not succeed, any dispute, claim, or controversy arising out of or relating to these Terms or the Service will be resolved by binding individual arbitration administered by the **American Arbitration Association (AAA)** under its **Consumer Arbitration Rules**. The arbitration will take place in Dallas County, Texas, or (if you request) via telephone or videoconference. The arbitrator — not a court — will decide any issue concerning the scope, enforceability, or formation of this arbitration agreement.
 
 ### 14.3 Small-claims exception
 
@@ -169,7 +169,7 @@ For consumer arbitrations, AAA's fee rules apply. If you are a consumer assertin
 
 ## 15. Governing law
 
-These Terms and any dispute arising out of or relating to them or the Service are governed by the laws of the **State of California**, without regard to its conflict-of-laws principles. Subject to Section 14, the exclusive venue for any claim that may be heard in court is the state or federal courts located in the Northern District of California, and you consent to the jurisdiction of those courts.
+These Terms and any dispute arising out of or relating to them or the Service are governed by the laws of the **State of Texas**, without regard to its conflict-of-laws principles. Subject to Section 14, the exclusive venue for any claim that may be heard in court is the state courts located in Dallas County, Texas, or the United States District Court for the Northern District of Texas, and you consent to the jurisdiction of those courts.
 
 ## 16. Changes to these Terms
 
@@ -195,5 +195,7 @@ For questions about these Terms, email:
 
 **privacy@clemapp.com**
 
-Tyler Piwowarski, operating Clem
-California, United States
+Clemapp, Inc.
+3227 McKinney Ave
+Dallas, TX 75204
+United States
