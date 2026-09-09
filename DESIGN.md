@@ -26,7 +26,7 @@ The design system it should express: **editorial print, not SaaS landing page.**
 | App Store URL | `https://apps.apple.com/us/app/clem-food-health-scanner/id6760143309` | live listing |
 | Rating | 5.0 ★ · 17 ratings | live listing |
 | Category | Food & Drink | live listing |
-| Developer | Tyler Piwowarski | live listing |
+| Developer | Clemapp, Inc. | live listing |
 
 ### Scoring
 
