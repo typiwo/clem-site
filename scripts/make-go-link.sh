@@ -8,7 +8,7 @@
 #                    (also what you tell the creator to say / the code they
 #                    type into onboarding).
 # [provider_token]  Apple's `pt=` provider token. If omitted, read from
-#                    $CLEM_ASC_PROVIDER_TOKEN.
+#                    $CLEM_ASC_PROVIDER_TOKEN, else the checked-in DEFAULT_TOKEN.
 #
 # The provider token comes from App Store Connect → Analytics → Sources →
 # Campaigns → "Generate campaign link" (Tyler fetches this once; it's
@@ -19,7 +19,10 @@
 set -euo pipefail
 
 CODE="${1:-}"
-TOKEN="${2:-${CLEM_ASC_PROVIDER_TOKEN:-}}"
+# Account-wide Apple provider token (public: it appears in every campaign URL).
+# Fetched from App Store Connect → Analytics → Sources → Campaigns on 2026-09-30.
+DEFAULT_TOKEN="128485703"
+TOKEN="${2:-${CLEM_ASC_PROVIDER_TOKEN:-$DEFAULT_TOKEN}}"
 
 if [[ -z "$CODE" ]]; then
   echo "Usage: scripts/make-go-link.sh <code> [provider_token]" >&2
