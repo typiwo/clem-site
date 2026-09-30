@@ -25,8 +25,8 @@ scripts/make-go-link.sh <code> [provider_token]
   the app's Supabase `campaign_codes` table (see
   `docs/growth/attribution-runbook.md` in the `clem` app repo).
 - `[provider_token]` — Apple's `pt=` token. Omit it to read
-  `$CLEM_ASC_PROVIDER_TOKEN` instead. The token is account-wide (fetched
-  once from App Store Connect), not per-code.
+  `$CLEM_ASC_PROVIDER_TOKEN`, else the checked-in default (`128485703`, fetched
+  once from App Store Connect on 2026-09-30). It is account-wide, not per-code.
 
 The script writes `go/<code>/index.html` and prints the live URL. Commit the
 generated file — every page here is checked in, not generated at deploy
