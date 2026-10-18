@@ -44,3 +44,10 @@ time.
 
 No other logic lives here — this directory only ever holds generated
 redirect pages plus this README.
+
+## Pilot invite links
+
+Pilot codes (`ce-<name>`, `ty-<name>`) do not get a `go/` page. They use the single
+page at `/join?c=<code>` (`join/index.html`), which shows the code, links to the App
+Store with `ct=<code>`, and opens the app with `clem://join/<code>` when installed.
+The app registers the code on first use; nothing to add here or in Supabase.
