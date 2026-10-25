@@ -7,7 +7,7 @@ permalink: /terms/
 # Terms of Service
 
 **Effective date:** June 25, 2026
-**Last updated:** September 8, 2026
+**Last updated:** October 25, 2026
 
 These Terms of Service (the "**Terms**") govern your use of the Clem mobile application and related services (together, the "**Service**"), operated by **Clemapp, Inc.**, a Delaware corporation with its principal place of business in Texas ("**Clem**," "**we**," "**us**," or "**our**").
 
@@ -26,8 +26,6 @@ You must not use the Service if you are located in a country subject to a U.S. e
 ## 3. What Clem does
 
 Clem is an AI-powered tool that helps you make more informed grocery decisions. You can scan a photo of a food item or browse a catalog to get an analysis that may include a health score, ingredient breakdown, nutritional highlights, additive information, and healthier-alternative suggestions. Some features are available only to Clem Pro subscribers (see Section 6).
-
-Clem also includes optional **social features** — you can create a profile, follow other people, share your scans to an activity feed, and like or comment on scans. Using these features is your choice. The rules for content you post and for your interactions with other users are in Sections 7 and 8.
 
 ## 4. Medical and nutritional disclaimer
 
@@ -48,7 +46,7 @@ You need an account to use most of the Service. You can sign in with Apple or Go
 
 You can try Clem before signing in: a temporary **anonymous account** holds your onboarding choices and first scan until you sign in and claim them. If you never sign in, that anonymous account and its data are automatically deleted after about 30 days of inactivity.
 
-You can delete your account at any time from inside the app at **Settings → Delete Account**. Deletion is permanent and removes your scan history, cart, saved products, dietary preferences, profile, posts you've shared, follows, likes, comments, and account record within 30 days. Apple subscriptions continue independently and must be canceled separately in your Apple ID Account Settings.
+You can delete your account at any time from inside the app at **Settings → Delete Account**. Deletion is permanent and removes your scan history, cart, saved products, dietary preferences, profile, and account record within 30 days. Apple subscriptions continue independently and must be canceled separately in your Apple ID Account Settings.
 
 ## 6. Clem Pro subscriptions
 
@@ -78,35 +76,23 @@ When using Clem, you agree not to:
 - Submit automated or bot traffic to our servers or to the Gemini API path we route traffic through.
 - Upload, post, or share content that is illegal, obscene, infringing, hateful, sexually explicit, or intended to harass or harm others.
 - Impersonate any person or misrepresent your affiliation with anyone.
-- Harass, bully, threaten, stalk, or abuse other users, or post another person's private information.
-- Send spam, or use the following, liking, or commenting features in an automated, bulk, or abusive way.
 - Use the Service to develop a competing product or to train a machine-learning model.
 - Resell, redistribute, or commercially exploit the analyses, scores, or product data produced by the Service.
 - Circumvent, disable, or interfere with security features of the Service, or attempt to gain unauthorized access to any part of it.
 
-**Objectionable content and other users.** There is **no tolerance** for objectionable content or abusive users. You can report a comment, a post (including its photo and caption), a profile picture (avatar), or another user, and block another user, from inside the app, or email us at privacy@clemapp.com. We review reports and will act on objectionable content — typically by removing the content and/or suspending the responsible account — within 24 hours. We may remove any content and suspend or terminate any account at our discretion. Content posted by other users belongs to them, not to us; we do not endorse it, and you interact with other users at your own risk.
-
 We may suspend or terminate your access if we reasonably believe you have violated these rules.
 
-## 8. User-generated content and community
+## 8. Social features (retired)
 
-Clem's social features let you post content — including the **photos** from your scans and the **captions** you write — and interact with other people. The following rules apply to that content and to your conduct.
-
-**Ownership and your license to us.** You retain ownership of the photos and captions you post. By posting them, you grant Clem a worldwide, non-exclusive, royalty-free license to host, store, and display that content within the Service in order to provide the social features — for example, showing a scan you post to your followers, or to anyone who can view your profile if it is public. This license is limited to operating the Service, ends when you delete the content or your account (except for copies retained in routine backups for up to 30 days), and does not permit us to sell your content or use it for advertising. You are responsible for the content you post, and you represent that you have the right to post it and that it does not violate these Terms or the rights of others.
-
-**Zero tolerance for objectionable content.** There is **no tolerance** for objectionable content or abusive behavior. You may not post content that is hateful, sexually explicit, harassing, abusive, threatening, defamatory, or otherwise illegal, and you may not bully, stalk, impersonate, or otherwise abuse other users. These rules apply to photos, captions, profiles, comments, usernames, and every other part of the social features.
-
-**Reporting and blocking.** You can **report** any content or person, and **block** any user, from inside the app (or by emailing us at privacy@clemapp.com). Blocking a user prevents them from interacting with you or viewing your profile. We review reports and act on violations — typically within **24 hours** — by removing the content and/or suspending or terminating the responsible account.
-
-**Enforcement.** We may remove any content and suspend or terminate any account that violates these Terms, at our discretion and with or without notice. Content posted by other users belongs to them, not to us; we do not endorse it, and you interact with other users at your own risk.
+Clem previously offered optional social features: profiles, following, a feed of shared scans, likes, comments, blocking, and reporting. We removed them in October 2026, and the content posted through them is being permanently deleted. Nothing you do in Clem is shown to other users.
 
 ## 9. Intellectual property
 
 **Clem's content.** The Clem name, logo, app, user interface, text, AI analyses, product database, and other content we provide are owned by Clem or licensed to it, and are protected by copyright, trademark, and other laws. We grant you a limited, non-exclusive, non-transferable, revocable license to use the Service for your personal, non-commercial use, consistent with these Terms.
 
-**Your content.** You retain all rights in the photos you submit to Clem for scanning. By submitting a photo, you grant us a limited, worldwide, royalty-free license to process that photo solely for the purpose of generating your requested analysis (including transmitting it to Google Gemini for AI analysis as described in our [Privacy Policy](/privacy/)). This license ends as soon as the analysis is complete. We do not retain a photo you scan only for analysis; however, if you choose to **post** a scan to your social feed, the photo and your caption are stored and displayed as user content under the license in Section 8.
+**Your content.** You retain all rights in the photos you submit to Clem for scanning. By submitting a photo, you grant us a limited, worldwide, royalty-free license to process that photo solely for the purpose of generating your requested analysis (including transmitting it to Google Gemini for AI analysis as described in our [Privacy Policy](/privacy/)). This license ends as soon as the analysis is complete. We do not retain a photo you scan only for analysis.
 
-**Content you post in social features.** You retain ownership of the profile information, comments, and other content you post through the social features. By posting it, you grant us a worldwide, non-exclusive, royalty-free license to host, store, display, and distribute that content within the Service so the social features can function — for example, showing your comment to others who can view a scan, or showing your profile to people who visit it. This license ends when you delete the content or your account, except for copies retained in routine backups for up to 30 days. You are solely responsible for the content you post, and you represent that you have the right to post it and that it does not violate Section 7 or the rights of others.
+**Your profile.** You retain ownership of the display name and profile picture you add to your profile. You grant us a limited, non-exclusive, royalty-free license to store them and show them to you within the Service. This license ends when you remove them or delete your account, except for copies retained in routine backups for up to 30 days. You represent that you have the right to use them and that they do not violate Section 7 or the rights of others.
 
 **Feedback.** If you send us suggestions or feedback, we may use them without obligation to you.
 
