@@ -10,6 +10,11 @@ exclude:
   - DESIGN.md
   - SITE-REFRESH-BRIEF.md
 
+# Jekyll skips dotfiles by default. Apple reads the universal-link file for the pilot
+# join link (clemapp.com/join?c=<code>) at exactly /.well-known/apple-app-site-association.
+include:
+  - .well-known
+
 defaults:
   - scope:
       path: ""

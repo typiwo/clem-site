@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["HHCP8VLKDS.com.cartly.app", "HHCP8VLKDS.com.cartly.dev"],
+        "components": [
+          { "/": "/join", "?": { "c": "?*" }, "comment": "pilot join link, query form" },
+          { "/": "/join/", "?": { "c": "?*" }, "comment": "same, after the trailing-slash redirect" },
+          { "/": "/join/*", "comment": "pilot join link, path form" }
+        ]
+      }
+    ]
+  }
+}

@@ -36,7 +36,7 @@ permalink: /join/
   <div class="code" id="code">…</div>
   <a class="btn primary" id="store" href="https://apps.apple.com/app/id6760143309?pt=128485703&mt=8">GET CLEM ON THE APP STORE</a>
   <a class="btn secondary" id="open" href="#">ALREADY HAVE CLEM? OPEN IT</a>
-  <p class="steps">1. Install Clem and open it once.<br>2. Come back here and tap <strong>Open it</strong>. You're in.<br>If Clem asks where you heard about us, pick <strong>A friend or family member</strong> and type your code.</p>
+  <p class="steps">1. Tap <strong>Get Clem</strong> and install it.<br>2. Open Clem. If the first screen offers your invite link, tap <strong>Use invite link</strong>. You're in.<br>Otherwise come back here and tap <strong>Open it</strong>, or type your code when Clem asks where you heard about us.</p>
 </main>
 <script>
   (function () {
@@ -56,6 +56,32 @@ permalink: /join/
     codeEl.textContent = code.toUpperCase();
     openEl.setAttribute('href', 'clem://join/' + code);
     storeEl.setAttribute('href', 'https://apps.apple.com/app/id6760143309?pt=128485703&ct=' + encodeURIComponent(code) + '&mt=8');
+
+    // The clipboard half of the join link. Tapping "Get Clem" copies this page's own
+    // link (as a URL item and as text) so Clem's first screen can offer it after the
+    // install without anyone typing. Needs a user gesture and https, both true here.
+    // Whatever happens, the tap still goes to the App Store.
+    var joinUrl = 'https://clemapp.com/join?c=' + code;
+    storeEl.addEventListener('click', function (e) {
+      if (!navigator.clipboard) return;
+      e.preventDefault();
+      var go = function () { window.location.href = storeEl.href; };
+      var written;
+      try {
+        if (window.ClipboardItem) {
+          written = navigator.clipboard.write([new ClipboardItem({
+            'text/plain': new Blob([joinUrl], { type: 'text/plain' }),
+            'text/uri-list': new Blob([joinUrl], { type: 'text/uri-list' })
+          })]);
+        } else {
+          written = navigator.clipboard.writeText(joinUrl);
+        }
+      } catch (err) {
+        written = Promise.reject(err);
+      }
+      var timer = new Promise(function (resolve) { setTimeout(resolve, 800); });
+      Promise.race([written.catch(function () {}), timer]).then(go, go);
+    });
   })();
 </script>
 </body>
