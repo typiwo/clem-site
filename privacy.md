@@ -7,7 +7,7 @@ permalink: /privacy/
 # Privacy Policy
 
 **Effective date:** August 22, 2026
-**Last updated:** October 25, 2026
+**Last updated:** October 27, 2026
 
 This Privacy Policy explains how Clem ("**Clem**," "**we**," "**us**," or "**our**") collects, uses, shares, and protects information when you use the Clem mobile app (the "**Service**"). By using Clem, you agree to this Policy.
 
@@ -35,6 +35,8 @@ We intentionally collect as little data as possible. The information we collect 
 - During onboarding, and later in Settings, you can choose to tell us your age range, gender, who you shop for, how often you grocery shop, and where you usually shop. Every question has a "Prefer not to say" option and you can skip or clear these answers at any time in **Settings → About you**. We use these answers only in aggregate to understand who uses Clem and to improve the product. They are never used for advertising, never shared with advertisers, and never sent to the AI that analyzes your food.
 
 **How you found Clem and research interviews (optional)** — During onboarding we ask how you heard about Clem (for example TikTok, a creator, a friend) and, optionally, a creator or referral code. You can also opt in to a short research conversation with our team; if you do, we keep your opt-in and the email address on your account so we can reach you. You can withdraw by contacting us or deleting your account. None of this is sent to the AI or used for advertising.
+
+**Feedback you write to us (optional)** — Some early-access features end with a short survey. The multiple-choice answers are recorded as product-analytics events (see "Product analytics" below). If you also type a note, we store the note in our own database, linked to your account, so our team can read it. Typed notes are never sent to our analytics provider, to the AI, or to advertisers. Please leave out anything about your health. You can ask us to delete a note at any time by contacting us, and notes are deleted with your account.
 
 **Scan and cart data**
 - The text analysis results from your grocery scans (score, ingredients summary, highlights, nutrition details).
@@ -137,6 +139,7 @@ If you enable notifications, we use Expo's push service (operated by 650 Industr
 
 - **Anonymous trial accounts:** if you start using Clem without signing in, a temporary anonymous account holds your onboarding choices and scans. It becomes your real account when you sign in; if you never sign in, the anonymous account and all of its data are automatically deleted after about **30 days** of inactivity.
 - **Account record, dietary preferences, your optional About-you answers, how you found Clem and any research-interview opt-in, scan history, cart, saved products, and local subscription-status row:** retained while your account is active, and permanently deleted within **30 days** of account deletion. You can also clear your About-you answers at any time in **Settings → About you** without deleting your account. The 30-day window exists to cover routine encrypted backups; in practice, tapping **Delete Account** in Settings wipes your data from the live database immediately.
+- **Feedback notes you type in a survey:** retained while your account is active and deleted when you delete your account (within **30 days**, covering backups).
 - **Profile (display name and avatar) and push tokens:** retained while your account is active and deleted within **30 days** of account deletion.
 - **Photos submitted for scanning:** stored in Supabase Storage as a product-catalog image, saved against the product (not your account) and not linked to your identity. Because they are deidentified catalog content keyed to the product rather than to you, these images are retained as part of the shared product catalog and are not tied to — or removed with — your account. Google's retention of the image is governed by its Gemini API terms linked above.
 - **Label photos (ingredient list and Nutrition Facts panel):** stored in the private `label-photos` bucket with the text we read from them, keyed to the product's barcode and, while your account exists, linked to your account. Retained as part of the shared product record; not removed with your account, but the link to your account is removed within **30 days** of account deletion. We may delete older label photos once the text has been verified, keeping only the text.
