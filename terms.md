@@ -7,7 +7,7 @@ permalink: /terms/
 # Terms of Service
 
 **Effective date:** June 25, 2026
-**Last updated:** October 25, 2026
+**Last updated:** November 10, 2026
 
 These Terms of Service (the "**Terms**") govern your use of the Clem mobile application and related services (together, the "**Service**"), operated by **Clemapp, Inc.**, a Delaware corporation with its principal place of business in Texas ("**Clem**," "**we**," "**us**," or "**our**").
 
@@ -25,7 +25,7 @@ You must not use the Service if you are located in a country subject to a U.S. e
 
 ## 3. What Clem does
 
-Clem is an AI-powered tool that helps you make more informed grocery decisions. You can scan a photo of a food item or browse a catalog to get an analysis that may include a health score, ingredient breakdown, nutritional highlights, additive information, and healthier-alternative suggestions. Some features are available only to Clem Pro subscribers (see Section 6).
+Clem is an AI-powered tool that helps you make more informed grocery decisions. You can scan a photo of a food item or browse a catalog to get an analysis that may include a health score, ingredient breakdown, nutritional highlights, additive information, and healthier-alternative suggestions. You can also turn on an optional sugar and carbs card (see Section 4). Some features are available only to Clem Pro subscribers (see Section 6).
 
 ## 4. Medical and nutritional disclaimer
 
@@ -35,6 +35,14 @@ Clem is an AI-powered tool that helps you make more informed grocery decisions. 
 - Medical or nutritional decisions. Consult a qualified healthcare professional, registered dietitian, or other medical provider before making decisions about your diet, especially if you have a medical condition, are pregnant or nursing, or are caring for a child.
 - **Allergen safety.** Ingredient lists can be incomplete, inaccurate, or updated without notice; labels change; cross-contamination occurs in manufacturing. Always read the physical packaging and consult a medical professional for allergen-related decisions.
 - Detection of recalls, safety alerts, or other time-sensitive product information.
+
+**Sugar and carb insights.** The optional sugar and carbs card rates how quickly a food's sugar and carbs tend to be taken in (fast, medium, slow, or almost none). In using it, you understand that:
+- Every rating is an estimate from the food's label, which can be misread or out of date. It is not a measurement of you, and people respond to the same food differently.
+- Ratings are per labeled serving, are calculated from label values by fixed rules, have not been validated against measured blood glucose, and can be wrong when a label is incomplete or misread.
+- It is general information, not medical advice. It does not diagnose, treat, prevent, or manage any condition.
+- Never use it to dose insulin or decide on medication. It is not designed for type 1 diabetes, diabetes in pregnancy, or children.
+- Talk to your doctor or dietitian before changing your diet or medication.
+- If you think your blood sugar is low or high right now, follow your care plan or get medical help. The card cannot tell you.
 
 You use the Service at your own risk. You acknowledge that the analysis may be inaccurate and that you are solely responsible for any decisions you make based on it.
 
