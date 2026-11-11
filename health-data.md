@@ -24,6 +24,7 @@ Clem never collects your blood sugar readings, glucose monitor data, diagnoses, 
 If you turn the card on, we collect:
 
 - **That you turned it on, and when,** and, if you later turn it off, that you did and when.
+- **Your member number:** the order in which you first turned the card on (for example, #128). We show it to you once when you turn the card on. It never changes and is never reused.
 - **How you use the card:** for example, when the card is shown on a scan (with the food's rating and whether the rating was estimated), when you open "How we read this," where you turned the card on or off (setup, Settings, or a one-time check), and your answer to the setup question.
 - **Session replays** of the screens that show the card or the setup question, as described in our [Privacy Policy](/privacy/). Text you type is masked.
 - **If you contact us:** the emails you send our team, including anything you choose to tell us.
@@ -77,13 +78,14 @@ Consumer health data gets the same protections as the rest of your data: encrypt
 
 ## 9. Where to find this policy
 
-In the app (**Settings**, next to the sugar and carbs switch, and on every screen that asks you to turn the card on) and at the bottom of clemapp.com.
+In the app (**Settings**, next to the sugar and carbs switch, and on every screen that asks you to turn the card on), on our App Store page, and at the bottom of clemapp.com.
 
 ## 10. Changes and contact
 
 If we change this policy, we will update the date above and tell people who have the card on, in the app, before any new collection or sharing begins.
 
 **Change log.**
+- **November 10, 2026 (later):** Added the member number shown once when you turn the card on, and the link from our App Store page.
 - **November 10, 2026:** The sugar and carbs card is no longer invite-only. Anyone can turn it on in setup or Settings. Updated what we collect, the consent screens, and the records kept from the earlier invite-only program.
 - **October 31, 2026:** First version, for the invite-only sugar and carbs pilot.
 
