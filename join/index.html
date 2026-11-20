@@ -9,80 +9,18 @@ permalink: /join/
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <meta name="theme-color" content="#F4F3EA">
-  <title>Join Clem</title>
-  <link rel="icon" href="/favicon.png" sizes="48x48" type="image/png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:wght@700&display=swap" rel="stylesheet">
-  <style>
-    :root { --bone:#F4F3EA; --ink:#212220; --orange:#F26A21; --muted:#56594F; --card:#fff; --line:#E8E3C8; }
-    * { box-sizing:border-box; }
-    body { margin:0; background:var(--bone); color:var(--ink); font-family:"DM Sans",system-ui,sans-serif; }
-    main { max-width:420px; margin:0 auto; padding:40px 20px 60px; }
-    .eyebrow { font-size:12px; letter-spacing:.12em; font-weight:700; color:var(--orange); }
-    h1 { font-family:Fraunces,serif; font-size:32px; margin:8px 0 12px; }
-    .code { display:inline-block; font-weight:700; font-size:28px; letter-spacing:.06em; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:12px 18px; margin:8px 0 20px; }
-    .btn { display:block; text-align:center; text-decoration:none; font-weight:700; letter-spacing:.06em; border-radius:999px; padding:16px 20px; margin-top:12px; }
-    .btn.primary { background:var(--orange); color:#fff; }
-    .btn.secondary { background:var(--card); color:var(--ink); border:1px solid var(--line); }
-    .steps { color:var(--muted); font-size:15px; line-height:1.5; margin-top:22px; }
-  </style>
+  <!-- The pilot ended 2026-11-10 (clem spec 2026-11-10-sugar-insights-for-everyone §173):
+       sugar and carb insights are open to everyone, so old join links just go to the store.
+       .well-known/apple-app-site-association still claims /join, so with Clem installed an
+       old link opens the app, which routes it Home. -->
+  <meta http-equiv="refresh" content="0; url=https://apps.apple.com/app/id6760143309?pt=128485703&ct=join&mt=8">
+  <title>Opening Clem on the App Store…</title>
+  <script>
+    window.location.replace("https://apps.apple.com/app/id6760143309?pt=128485703&ct=join&mt=8");
+  </script>
 </head>
 <body>
-<main>
-  <div class="eyebrow">YOU'RE INVITED</div>
-  <h1>Join the Clem pilot.</h1>
-  <p id="intro">Your invite code:</p>
-  <div class="code" id="code">…</div>
-  <a class="btn primary" id="store" href="https://apps.apple.com/app/id6760143309?pt=128485703&mt=8">GET CLEM ON THE APP STORE</a>
-  <a class="btn secondary" id="open" href="#">ALREADY HAVE CLEM? OPEN IT</a>
-  <p class="steps">1. Tap <strong>Get Clem</strong> and install it.<br>2. Open Clem. If the first screen offers your invite link, tap <strong>Use invite link</strong>. You're in.<br>Otherwise tap <strong>I have an invite code</strong> on that first screen and type the code above, or come back here and tap <strong>Open it</strong>.</p>
-</main>
-<script>
-  (function () {
-    var PATTERN = /^(ce|ty)-[a-z0-9]{2,20}(-[a-z0-9]{1,12})?$/;
-    var params = new URLSearchParams(window.location.search);
-    var raw = params.get('c') || '';
-    var code = raw.toLowerCase().replace(/\s+/g, '');
-    var codeEl = document.getElementById('code');
-    var openEl = document.getElementById('open');
-    var storeEl = document.getElementById('store');
-    if (!PATTERN.test(code)) {
-      document.getElementById('intro').textContent = "This link is missing its code. Ask whoever sent it for a new one, or download Clem anyway.";
-      codeEl.style.display = 'none';
-      openEl.style.display = 'none';
-      return;
-    }
-    codeEl.textContent = code.toUpperCase();
-    openEl.setAttribute('href', 'clem://join/' + code);
-    storeEl.setAttribute('href', 'https://apps.apple.com/app/id6760143309?pt=128485703&ct=' + encodeURIComponent(code) + '&mt=8');
-
-    // The clipboard half of the join link. Tapping "Get Clem" copies this page's own
-    // link (as a URL item and as text) so Clem's first screen can offer it after the
-    // install without anyone typing. Needs a user gesture and https, both true here.
-    // Whatever happens, the tap still goes to the App Store.
-    var joinUrl = 'https://clemapp.com/join?c=' + code;
-    storeEl.addEventListener('click', function (e) {
-      if (!navigator.clipboard) return;
-      e.preventDefault();
-      var go = function () { window.location.href = storeEl.href; };
-      var written;
-      try {
-        if (window.ClipboardItem) {
-          written = navigator.clipboard.write([new ClipboardItem({
-            'text/plain': new Blob([joinUrl], { type: 'text/plain' }),
-            'text/uri-list': new Blob([joinUrl], { type: 'text/uri-list' })
-          })]);
-        } else {
-          written = navigator.clipboard.writeText(joinUrl);
-        }
-      } catch (err) {
-        written = Promise.reject(err);
-      }
-      var timer = new Promise(function (resolve) { setTimeout(resolve, 800); });
-      Promise.race([written.catch(function () {}), timer]).then(go, go);
-    });
-  })();
-</script>
+  <p>Redirecting to the App Store… If nothing happens, tap below.</p>
+  <p><a href="https://apps.apple.com/app/id6760143309?pt=128485703&ct=join&mt=8">Open Clem on the App Store</a></p>
 </body>
 </html>
