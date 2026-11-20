@@ -394,6 +394,10 @@ td a:hover{text-decoration:none}
 .good-to-know a,.android-note a{color:var(--brick);text-decoration:underline;text-underline-offset:2px}
 .dark .android-note a{color:var(--gold)}
 .android-note{margin-top:16px}
+/* Android sign-up bar, top of the page. */
+.android-bar{background:var(--grass-deep);text-align:center;padding:10px 20px}
+.android-bar a{color:var(--bone);font-weight:700;font-size:14px;line-height:1.4;text-decoration:none}
+.android-bar a:hover{text-decoration:underline;text-underline-offset:2px}
 @media(max-width:860px){.sugar-row{grid-template-columns:1fr}}
 
 /* ── Final + footer ─────────────────────────────────────────────────── */
@@ -414,12 +418,15 @@ td a:hover{text-decoration:none}
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
+<div class="android-bar"><a href="/android/?ref=home-bar">On Android? Get on the list and we&rsquo;ll email you when Clem is ready <span aria-hidden="true">&rarr;</span></a></div>
+
 <nav class="nav" aria-label="Primary">
   <div class="nav-inner">
     <a class="brand" href="/">Clem</a>
     <div class="nav-links">
       <a href="#sugar">Sugar &amp; carbs</a>
       <a href="#score">The score</a>
+      <a href="/android/?ref=home-nav">Android</a>
       <a href="#pricing">Pricing</a>
       <a class="btn-primary" href="https://apps.apple.com/us/app/clem-food-sugar-scanner/id6760143309">Get Clem</a>
     </div>
@@ -437,7 +444,7 @@ td a:hover{text-decoration:none}
   <div class="wrap">
     <div class="hero-grid">
       <div>
-        <span class="eyebrow">&mdash; Sugar and carb insights</span>
+        <span class="eyebrow">Sugar and carb insights</span>
         <h1>Sugar and carbs, read off the <em>label.</em></h1>
         <p class="lede">Scan any food with a nutrition label. Clem estimates how quickly its sugar and carbs tend to be taken in: fast, medium, slow or almost none. Then it shows what speeds it up and what slows it down, in grams. Built for anyone watching their sugar and carbs.</p>
         <div class="cta-row">
@@ -458,7 +465,6 @@ td a:hover{text-decoration:none}
           <span><span class="dot" aria-hidden="true"></span>iPhone, iOS 15.1+</span>
           <span><span class="dot" aria-hidden="true"></span>Free to download</span>
         </p>
-        <p class="small android-note">On Android? <a href="/android/?ref=home-hero">Get on the list</a> and we&rsquo;ll tell you when Clem is ready.</p>
       </div>
 
       <div>
@@ -491,10 +497,10 @@ td a:hover{text-decoration:none}
 <section id="sugar" style="background:var(--bone-warm)">
   <div class="wrap">
     <div class="head-block">
-      <span class="eyebrow">&mdash; How it reads a label</span>
-      <h2>Four speeds. Every one <em>explained.</em></h2>
+      <span class="eyebrow">How it reads a label</span>
+      <h2>Fast, medium, slow or almost <em>none.</em></h2>
       <hr class="rule">
-      <p class="lede">Per labeled serving, Clem weighs what speeds a food&rsquo;s sugar and carbs up against what slows them down, and lands on one of four speeds. You see both sides, so you can check the call yourself.</p>
+      <p class="lede">Per labeled serving, Clem weighs what speeds a food&rsquo;s sugar and carbs up against what slows them down, and lands on one of four speeds. The card shows you both sides.</p>
     </div>
     <div class="grid g4 sugar-bands">
       <div class="card">
@@ -559,10 +565,10 @@ td a:hover{text-decoration:none}
 <section id="start">
   <div class="wrap">
     <div class="head-block">
-      <span class="eyebrow">&mdash; Getting started</span>
-      <h2>On in one <em>tap.</em></h2>
+      <span class="eyebrow">Getting started</span>
+      <h2>How to turn it <em>on.</em></h2>
       <hr class="rule">
-      <p class="lede">Sugar and carb insights are optional and free. Nothing about you goes in: the card only ever reads the food&rsquo;s label.</p>
+      <p class="lede">Sugar and carb insights are optional and free. The card only reads the food&rsquo;s label, nothing about you.</p>
     </div>
     <div class="grid g3">
       <div class="step">
@@ -594,9 +600,9 @@ td a:hover{text-decoration:none}
 <section class="dark" id="how">
   <div class="wrap">
     <div class="head-block">
-      <span class="eyebrow">— How it works</span>
-      <h2>AI reads the label. Code does the <em>math.</em></h2>
-      <p class="lede">Neither the sugar and carbs speed nor the score is an AI opinion. Both come from fixed rules run on the label Clem just read. Scan the same product twice and you get the same answer. So does everyone else.</p>
+      <span class="eyebrow">How it works</span>
+      <h2>AI reads the label, and code does the <em>math.</em></h2>
+      <p class="lede">The sugar and carbs speed and the score both come from fixed rules run on the label Clem just read. Scan the same product twice and you get the same answer.</p>
     </div>
     <p class="script">Same food, same answer.</p>
     <div class="split">
@@ -614,7 +620,7 @@ td a:hover{text-decoration:none}
         <ul>
           <li>Reads the product label out of your photo</li>
           <li>Writes Clem&rsquo;s Take, the short editorial read</li>
-          <li>Nothing else. It never touches the math</li>
+          <li>That&rsquo;s all. It doesn&rsquo;t calculate anything</li>
         </ul>
       </div>
     </div>
@@ -626,10 +632,10 @@ td a:hover{text-decoration:none}
   <div class="wrap">
     <div class="hero-grid" style="margin-bottom:48px">
       <div class="head-block" style="margin-bottom:0">
-        <span class="eyebrow">&mdash; The score</span>
+        <span class="eyebrow">The score</span>
         <h2>Every food gets an honest <em>score,</em> too.</h2>
         <hr class="rule">
-        <p class="lede">Next to the sugar and carbs card, every scan scores the food 0&ndash;100 on five research-backed dimensions. You see all five as letter grades, so you can see exactly where a score came from. Nothing is hidden and nothing is weighted in secret.</p>
+        <p class="lede">Next to the sugar and carbs card, every scan scores the food 0&ndash;100 on five research-backed dimensions. All five show up as letter grades, so you can see where a score came from.</p>
       </div>
       <figure class="shot">
         <img src="/assets/app-report-card.jpg" width="600" height="1301" loading="lazy" alt="Clem's report card for the same yogurt: Ingredients 30% scored 95, Processing 25% scored 100, Additives 20% scored 100, Nutrients to Limit 15% scored 96, Nutrient Density 10% scored 80.">
@@ -677,7 +683,7 @@ td a:hover{text-decoration:none}
       </table>
     </div>
     <p class="small table-hint" style="margin-top:16px">Scroll the table sideways for what each dimension measures.</p>
-    <p class="small" style="margin-top:20px">The label reading is done by Google Gemini. The arithmetic above is not.</p>
+    <p class="small" style="margin-top:20px">Google Gemini reads the label. The math above is plain code.</p>
   </div>
 </section>
 
@@ -685,10 +691,10 @@ td a:hover{text-decoration:none}
 <section style="background:var(--bone-warm)">
   <div class="wrap">
     <div class="head-block">
-      <span class="eyebrow">— The scale</span>
+      <span class="eyebrow">The scale</span>
       <h2>One scale, four <em>bands.</em></h2>
       <hr class="rule">
-      <p class="lede">The same 0&ndash;100 scale for every product and every person. No curve, no category grading, no &ldquo;healthy for a cookie.&rdquo;</p>
+      <p class="lede">The same 0&ndash;100 scale for every product and every person. There&rsquo;s no curve and no grading by category, so a cookie isn&rsquo;t only compared with other cookies.</p>
     </div>
     <div class="bands">
       <div class="band">
@@ -732,10 +738,10 @@ td a:hover{text-decoration:none}
   <div class="wrap">
     <div class="hero-grid">
       <div>
-        <span class="eyebrow">— The verdict</span>
+        <span class="eyebrow">The verdict</span>
         <h2>The number rates the food. The verdict is about <em>you.</em></h2>
         <hr class="rule">
-        <p class="lede">Tell Clem your diet, your allergens, and what you&rsquo;d rather avoid. The score stays exactly the same. What changes is the call Clem makes on it.</p>
+        <p class="lede">Tell Clem your diet, your allergens, and what you&rsquo;d rather avoid. The score doesn&rsquo;t change. Clem&rsquo;s call on whether it suits you does.</p>
         <p class="small" style="margin-top:16px">Diets: Standard, Keto, Paleo, Mediterranean, Vegan, Vegetarian. Allergen flags: gluten, dairy, tree nuts. Avoidances: seed oils, added sugars, additives, ultra-processed foods.</p>
       </div>
       <div class="card card-lg">
@@ -769,10 +775,10 @@ td a:hover{text-decoration:none}
 <section id="scan" style="background:var(--bone-warm)">
   <div class="wrap">
     <div class="head-block">
-      <span class="eyebrow">— On every scan</span>
+      <span class="eyebrow">On every scan</span>
       <h2>Everything the label makes you work <em>for.</em></h2>
       <hr class="rule">
-      <p class="lede">One photo. Every one of these comes back, on the free plan too.</p>
+      <p class="lede">Every scan includes all of this, on the free plan too.</p>
     </div>
     <div class="grid g4">
       <div class="card feature">
@@ -793,7 +799,7 @@ td a:hover{text-decoration:none}
       <div class="card feature">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v6c0 4.4-3 7.6-7 9-4-1.4-7-4.6-7-9V6z"/><path d="M9.5 12l1.8 1.8 3.4-3.6"/></svg>
         <h3>Additives by safety tier</h3>
-        <p>Each one rated and named, not just counted.</p>
+        <p>Each one is named and rated, with the reason.</p>
       </div>
       <div class="card feature">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5c3.5 4 5.5 6.6 5.5 9.3A5.5 5.5 0 0 1 12 18.3a5.5 5.5 0 0 1-5.5-5.5c0-2.7 2-5.3 5.5-9.3z"/></svg>
@@ -808,12 +814,12 @@ td a:hover{text-decoration:none}
       <div class="card feature">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h13l-3-3M20 16H7l3 3"/></svg>
         <h3>Healthier alternatives</h3>
-        <p>Real products from the database that score better, not generic advice.</p>
+        <p>Real products from the database that score better.</p>
       </div>
       <div class="card feature">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A2.5 2.5 0 0 1 17.5 17H9l-4 3V6.5A2.5 2.5 0 0 1 7.5 4h10A2.5 2.5 0 0 1 20 6.5z"/><path d="M9 9h6M9 12.5h4"/></svg>
         <h3>Clem&rsquo;s Take</h3>
-        <p>One short editorial read, written for your profile. The one place AI writes.</p>
+        <p>A short read on the product, written by AI for your profile. It never changes the score.</p>
       </div>
     </div>
 
@@ -824,14 +830,14 @@ td a:hover{text-decoration:none}
 <section class="dark">
   <div class="wrap">
     <div class="head-block">
-      <span class="eyebrow">— Where we stand</span>
+      <span class="eyebrow">Where we stand</span>
       <h2>No food is bad. Some is room to <em>improve.</em></h2>
     </div>
     <div class="grid g4">
-      <div class="card card-lg"><p class="lede" style="font-family:'Fraunces',Georgia,serif;font-size:18px;line-height:1.45">A score should be checkable. If we can&rsquo;t show you the math, we haven&rsquo;t earned the number.</p></div>
-      <div class="card card-lg"><p class="lede" style="font-family:'Fraunces',Georgia,serif;font-size:18px;line-height:1.45">A red verdict is information, not a verdict on you. Clem helps you decide; it doesn&rsquo;t grade your character.</p></div>
-      <div class="card card-lg"><p class="lede" style="font-family:'Fraunces',Georgia,serif;font-size:18px;line-height:1.45">One scale for everyone. Personalization belongs in the advice, not in the arithmetic.</p></div>
-      <div class="card card-lg"><p class="lede" style="font-family:'Fraunces',Georgia,serif;font-size:18px;line-height:1.45">Fear is easy and useless. Clem is specific instead: this ingredient, this threshold, this better option.</p></div>
+      <div class="card card-lg"><p class="lede" style="font-family:'Fraunces',Georgia,serif;font-size:18px;line-height:1.45">We show the math behind every score. If we couldn&rsquo;t, we wouldn&rsquo;t show the number.</p></div>
+      <div class="card card-lg"><p class="lede" style="font-family:'Fraunces',Georgia,serif;font-size:18px;line-height:1.45">A red verdict means the food doesn&rsquo;t fit your settings. It says nothing about you.</p></div>
+      <div class="card card-lg"><p class="lede" style="font-family:'Fraunces',Georgia,serif;font-size:18px;line-height:1.45">Everyone gets the same score for the same food. Your settings change the advice, not the math.</p></div>
+      <div class="card card-lg"><p class="lede" style="font-family:'Fraunces',Georgia,serif;font-size:18px;line-height:1.45">We&rsquo;d rather be specific than scary: which ingredient, which threshold, and what to buy instead.</p></div>
     </div>
   </div>
 </section>
@@ -840,10 +846,10 @@ td a:hover{text-decoration:none}
 <section id="pricing">
   <div class="wrap">
     <div class="head-block">
-      <span class="eyebrow">— Pricing</span>
+      <span class="eyebrow">Pricing</span>
       <h2>Free covers the whole <em>analysis.</em></h2>
       <hr class="rule">
-      <p class="lede">Clem Pro lifts the limits. It doesn&rsquo;t unlock the thinking. Every scan you take on the free plan is the complete one.</p>
+      <p class="lede">Clem Pro removes the limits. Every scan on the free plan is the full analysis.</p>
     </div>
     <div class="plans">
       <div class="plan">
@@ -868,14 +874,14 @@ td a:hover{text-decoration:none}
         <div class="price-note">or $29.99 a year ($2.49 a month, about half the monthly price).</div>
         <ul>
           <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>Unlimited scans, every week</span></li>
-          <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>Every better pick &mdash; all swaps + browse</span></li>
+          <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>Every healthier swap, plus browsing</span></li>
           <li><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg><span>Unlimited search, any product</span></li>
         </ul>
         <a class="btn-primary" href="https://apps.apple.com/us/app/clem-food-sugar-scanner/id6760143309">Get Clem Pro</a>
         <p class="small" style="margin-top:20px">The annual plan currently includes a 7-day free trial for eligible new subscribers. Eligibility is set by Apple. Subscriptions are billed through your Apple ID and renew automatically until you turn off auto-renew, at least 24 hours before the period ends. Manage or cancel any time in your Apple ID settings. Full <a href="/terms/" style="color:var(--gold)">subscription terms</a>.</p>
       </div>
     </div>
-    <p class="free-note"><b>Sugar and carb insights are free.</b> So are the score, the report card and the verdict. None of them are Pro features. Pro raises the limits, not the quality of the answer.</p>
+    <p class="free-note"><b>Sugar and carb insights are free.</b> So are the score, the report card and the verdict. Pro only removes the limits.</p>
   </div>
 </section>
 
@@ -883,11 +889,11 @@ td a:hover{text-decoration:none}
 <section style="padding-top:0">
   <div class="wrap">
     <div class="head-block">
-      <span class="eyebrow">— Privacy</span>
+      <span class="eyebrow">Privacy</span>
       <h2>Nothing here is for <em>sale.</em></h2>
     </div>
     <div class="privacy-grid">
-      <div><h3>No ads</h3><p>There is no ad slot in Clem, and no plan for one.</p></div>
+      <div><h3>No ads</h3><p>There are no ads in Clem.</p></div>
       <div><h3>No ad trackers</h3><p>No third-party advertising trackers in the app.</p></div>
       <div><h3>Your data isn&rsquo;t sold</h3><p>We don&rsquo;t sell it. Read exactly what we keep in the <a href="/privacy/" style="color:var(--brick)">privacy policy</a>.</p></div>
       <div><h3>Location stays put</h3><p>When it&rsquo;s used for store distance it&rsquo;s foreground-only, and the coordinates never leave your device.</p></div>
@@ -898,7 +904,7 @@ td a:hover{text-decoration:none}
 <!-- ── FINAL ───────────────────────────────────────────────────────── -->
 <section class="dark final">
   <div class="wrap">
-    <span class="eyebrow">— Free on the App Store</span>
+    <span class="eyebrow">Free on the App Store</span>
     <h2>Know your sugar and carbs before you <em>buy.</em></h2>
     <p class="lede">Turn on sugar and carb insights, then scan the first thing in your cabinet.</p>
     <div class="cta-row">
@@ -911,7 +917,7 @@ td a:hover{text-decoration:none}
       <span><span class="dot" aria-hidden="true"></span>Food &amp; Drink</span>
       <span><span class="dot" aria-hidden="true"></span>iPhone, iOS 15.1+</span>
     </p>
-    <p class="small android-note" style="margin-top:20px">On Android? <a href="/android/?ref=home-final">Join the Android list</a>.</p>
+    <p class="small android-note" style="margin-top:20px">On Android? <a href="/android/?ref=home-final">Get on the Android list</a>.</p>
   </div>
 </section>
 
