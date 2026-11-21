@@ -32,7 +32,7 @@
 
 ## B. Content to add
 
-1. **Pricing section.** Free: 10 scans a week, 5 searches a day, every analysis feature. Pro: $4.99/mo or $29.99/yr with a **7-day free trial on annual**. Use the three locked Pro bullets in `DESIGN.md` §1 verbatim. Make it explicit that personalized scoring is free — that is the differentiator, and it is not behind the paywall.
+1. **Pricing section.** Free: 10 scans a week, unlimited product search, every analysis feature. Pro: $4.99/mo or $29.99/yr with a **7-day free trial on annual**. Use the two locked Pro bullets in `DESIGN.md` §1 verbatim. Make it explicit that personalized scoring is free — that is the differentiator, and it is not behind the paywall.
 
 2. **The trust claim, stated plainly:** *the score is computed by a deterministic formula, not by AI.* AI reads the label and writes the editorial take. Every competitor is a black box; this is Clem's strongest and most defensible line, and the site never makes it.
 

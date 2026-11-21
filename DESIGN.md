@@ -54,16 +54,15 @@ Home · Feed · **Scan** (elevated center button) · Search · Shelf
 
 | Tier | Price | What you get |
 |---|---|---|
-| **Free** | $0 | **10 scans per week**, 5 searches per day, every analysis feature — full score, report card, personalized verdict, ingredients, additives, alerts |
-| **Clem Pro — Monthly** | **$4.99 / mo** | Unlimited scans, every alternative + browse, unlimited search |
+| **Free** | $0 | **10 scans per week**, unlimited product search, every analysis feature — full score, report card, personalized verdict, ingredients, additives, alerts |
+| **Clem Pro — Monthly** | **$4.99 / mo** | Unlimited scans, every alternative + browse |
 | **Clem Pro — Annual** | **$29.99 / yr** | Same, **with a 7-day free trial** (annual only) |
 
-The three Pro bullets are locked and must be quoted as-is:
+The two Pro bullets are locked and must be quoted as-is:
 1. Unlimited scans, every week
 2. Every better pick — all swaps + browse
-3. Unlimited search, any product
 
-Personalized scoring is **free** and never listed as a Pro feature.
+Personalized scoring and search are **free** and never listed as Pro features (search became free for everyone 2026-11-21).
 
 ### Required disclaimer
 
