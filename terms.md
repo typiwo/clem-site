@@ -58,7 +58,7 @@ You can delete your account at any time from inside the app at **Settings → De
 
 ## 6. Clem Pro subscriptions
 
-Clem offers optional auto-renewing subscriptions ("**Clem Pro**") that unlock additional features: unlimited scanning, every healthier-swap suggestion, and unlimited product search.
+Clem offers optional auto-renewing subscriptions ("**Clem Pro**") that unlock additional features: unlimited scanning and every healthier-swap suggestion.
 
 **Plans and prices:**
 - **Clem Pro Monthly** — $4.99 USD / month, auto-renewing monthly
